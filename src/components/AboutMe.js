@@ -22,11 +22,11 @@ function AboutMe() {
         <div className='AboutText'>
         <p>WELCOME TO MY WORLD</p>
 
-        <h1>Hi, I’m Jone Doe</h1>
+        <h1 className='mb-1'>Hi, I’m Jone Doe</h1>
         <Typist cursor={{ hideWhenDone: true }}>
-        <span>Content Writter.</span>
+        <span className=''>Content Writter.</span>
         </Typist>
-        <h1>based in USA.</h1>
+        <h1 className=''>based in USA.</h1>
         </div>
         </Col>
 

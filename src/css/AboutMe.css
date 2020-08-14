@@ -1,6 +1,6 @@
 .AboutMe{
   padding: 1em 1em;
-  margin-bottom: 2em;
+  margin-bottom: 5em;
 }
 .mine{
 border: 0.5em solid white;
@@ -28,8 +28,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-weight: bold;
   font-size: 2em;
   color: red;
+
 }
-.mx-auto{
-  margin-left: auto!important;
-  margin-right:  auto!important;
+.h{
 }
