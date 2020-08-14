@@ -60,13 +60,14 @@ class Interests extends React.Component {
         <Row>
           <Col xs={12} className='interests'>
 
-            <h1>Interests</h1>
             <ScrollAnimation delay={1000}
             animateIn='tada'
             initiallyVisible={true}>
-            <h5>What I like</h5>
+            <h1>Interests</h1>
 
             </ScrollAnimation>
+            <h5>What I like</h5>
+            
             </Col>
         </Row>
 
