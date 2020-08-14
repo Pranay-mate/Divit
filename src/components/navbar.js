@@ -35,7 +35,7 @@ class Navba extends Component {
     render() {
   return (
     <div className='sticky-top'>
-  <Navbar dark className="navbar  navbar-dark transparent-nav nav-js col-sm-12" expand="md" >
+  <Navbar light className="navbar  navbar-light transparent-nav nav-js col-sm-12" expand="md" >
   <NavbarBrand className="mr-auto" href="/"><Link className="navbar-brand" href="/" activeClass="active"
   to="AboutMe"
   spy={true}

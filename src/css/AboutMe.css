@@ -4,43 +4,31 @@
   margin-bottom: 2em;
 }
 .mine{
-border: 0.2em solid white;
-height: calc(5em + 1vh);
+border: 0.5em solid white;
+height: calc(14em + 1vh);
 width: calc(14em + 1vh);
-margin-top: calc(4em + 1vh);
+margin-top: calc(1em + 1vh);
 
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.AboutText{
-  padding-top: calc(2em + 1vh);
 
-}
-.AboutMe h1{
-  font-size: calc(1em + 1vw);
-}
 
-.AboutText h5{
-  font-size: calc(0.4em + 1vw);
-
-  padding-bottom: 12px;
-  color: grey;
-}
-.AboutMe h1 span{
-  text-shadow: 2px 2px grey;
-
-}
-.AboutText .Typist{
-  font-size: calc(1em + 1vw);
-  font-weight: bold;
-  color: #ff1920;
-  font-family: 'Playfair Display', serif;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-}
-.AboutText p{
-  margin: 5px 5px 5px 0px;
-  font-size: calc(0.3em + 1vw);
-}
 .AboutMe .btn{
   margin-top: 1em;
+}
+.AboutText{
+  margin: 2em;
+  text-align: left;
+}
+.AboutText h1{
+  font-weight: bold;
+  text-align: left;
+  font-size: 2em;
+
+}
+.AboutText span{
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+  color: red;
 }

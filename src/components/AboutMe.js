@@ -15,25 +15,19 @@ function AboutMe() {
 
   <Container>
       <Row>
-         <Col xs={4} className='justify-content-center'>
+         <Col xs={12} sm={5} className='justify-content-center text-center'>
           <Image className='mine img-fluid' src={mine} roundedCircle  alt='loading..' />
         </Col>
-        <Col xs={8} className='AboutText' >
-        <h5>WELCOME TO MY WORLD</h5>
-        <h1 style={{ 'margin-bottom':'0px','padding-bottom':'0px' }}>Hi, I’m <span>Divit Karmiani</span></h1>
+        <Col xs={12}  sm={7}>
+        <div className=' AboutText '>
+        <p>WELCOME TO MY WORLD</p>
 
-        <Typist cursor={{ hideWhenDone: true }} style={{ 'margin-top':'0px','padding-top':'0px' }}>
-        DevOps Engineer
+        <h1>Hi, I’m Jone Doe</h1>
+        <Typist cursor={{ hideWhenDone: true }}>
+        <span>Content Writter.</span>
         </Typist>
-
-        <p >Currently working as Devops Engineer at Amadeus Software Labs.</p>
-        <p>Expertise in various technologies like Docker, Jenkins, Ansible, Python, Shell etc</p>
-        <p>Product Management, Product Design enthusiast</p>
-        <p>#Want to live upto my name’s meaning. “Divit” stands for Immortal.</p>
-        <p>#Lovetotravel #Foodie #Learningtocook #WanttobeIndependent</p>
-
-        <a href="https://drive.google.com/file/d/145TSumFN7G2oYIEu51QlYh0LJ9poCJqo/view?usp=sharing">  <button type="button" class="btn btn-dark">Resume</button></a>
-
+        <h1>based in USA.</h1>
+        </div>
         </Col>
 
 
