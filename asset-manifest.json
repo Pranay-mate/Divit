@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.fd59f7d4.chunk.css",
-    "main.js": "/Divit/static/js/main.75513444.chunk.js",
-    "main.js.map": "/Divit/static/js/main.75513444.chunk.js.map",
+    "main.css": "/Divit/static/css/main.2126241e.chunk.css",
+    "main.js": "/Divit/static/js/main.99526155.chunk.js",
+    "main.js.map": "/Divit/static/js/main.99526155.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.d4b8f4cc.chunk.css": "/Divit/static/css/2.d4b8f4cc.chunk.css",
     "static/js/2.919295d2.chunk.js": "/Divit/static/js/2.919295d2.chunk.js",
     "static/js/2.919295d2.chunk.js.map": "/Divit/static/js/2.919295d2.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.2bedac710e571f7b212522f0c4f0e804.js": "/Divit/precache-manifest.2bedac710e571f7b212522f0c4f0e804.js",
+    "precache-manifest.fb39ec50700666c13e1cab07deeed471.js": "/Divit/precache-manifest.fb39ec50700666c13e1cab07deeed471.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.d4b8f4cc.chunk.css.map": "/Divit/static/css/2.d4b8f4cc.chunk.css.map",
-    "static/css/main.fd59f7d4.chunk.css.map": "/Divit/static/css/main.fd59f7d4.chunk.css.map",
+    "static/css/main.2126241e.chunk.css.map": "/Divit/static/css/main.2126241e.chunk.css.map",
     "static/js/2.919295d2.chunk.js.LICENSE.txt": "/Divit/static/js/2.919295d2.chunk.js.LICENSE.txt",
     "static/media/Netflix.jpeg": "/Divit/static/media/Netflix.97a1b7c8.jpeg",
     "static/media/badminton.jpeg": "/Divit/static/media/badminton.d5fd6afd.jpeg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.ef562173.js",
     "static/css/2.d4b8f4cc.chunk.css",
     "static/js/2.919295d2.chunk.js",
-    "static/css/main.fd59f7d4.chunk.css",
-    "static/js/main.75513444.chunk.js"
+    "static/css/main.2126241e.chunk.css",
+    "static/js/main.99526155.chunk.js"
   ]
 }
