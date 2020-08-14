@@ -11,15 +11,15 @@ import '../css/AboutMe.css';
 
 function AboutMe() {
   return (
-    <div className="AboutMe container-fluid">
+    <div className="AboutMe container-fluid ">
 
   <Container>
       <Row>
-         <Col xs={12} sm={5} className='justify-content-center text-center'>
+         <Col xs={12} sm={5} className=' text-center'>
           <Image className='mine img-fluid' src={mine} roundedCircle  alt='loading..' />
         </Col>
-        <Col xs={12}  sm={7}>
-        <div className=' AboutText '>
+        <Col xs={12}  sm={7} className=''>
+        <div className='AboutText'>
         <p>WELCOME TO MY WORLD</p>
 
         <h1>Hi, I’m Jone Doe</h1>

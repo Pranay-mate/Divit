@@ -1,13 +1,12 @@
 .AboutMe{
-  text-align: left;
   padding: 1em 1em;
   margin-bottom: 2em;
 }
 .mine{
 border: 0.5em solid white;
-height: calc(14em + 1vh);
-width: calc(14em + 1vh);
-margin-top: calc(1em + 1vh);
+height: calc(15em + 1vh);
+width: calc(15em + 1vh);
+margin-top: calc(1.5em + 1vh);
 
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -17,18 +16,20 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 1em;
 }
 .AboutText{
-  margin: 2em;
-  text-align: left;
+  margin-top:  2.5em;
+  margin-left:  3em;
 }
 .AboutText h1{
   font-weight: bold;
-  text-align: left;
   font-size: 2em;
 
 }
 .AboutText span{
   font-weight: bold;
   font-size: 2em;
-  text-align: left;
   color: red;
+}
+.mx-auto{
+  margin-left: auto!important;
+  margin-right:  auto!important;
 }
