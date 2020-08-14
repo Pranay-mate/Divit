@@ -11,20 +11,20 @@ import '../css/ContactInfo.css';
 
 function ContactInfo() {
   return (
-    <div className="ContactInfo container-fluid">
+    <div className="ContactInfo container-fluid text-center">
 
   <Container>
   <Row className="" >
-  <Col xs={4}   className="">
+  <Col xs={12}   className="">
   <h1>Contact Info</h1>
   </Col>
-    <Col xs={4}  className="icon  text-center">
-          <a href="https://www.linkedin.com/in/divitkarmiani/"><img src="https://img.icons8.com/ios/40/ffffff/linkedin.png" alt='loading..' /></a>
-          <a href="mailto:divitkarmiani1998@gmail.com"><img src="https://img.icons8.com/ios/47/ffffff/gmail.png" alt='loading..' /></a>
-          <a href="https://medium.com/@divitkarmiani1998"><img src="https://img.icons8.com/ios/40/ffffff/medium-monogram.png" alt='loading..' /></a>
+    <Col xs={6}  className="icon  text-center">
+          <a className='ml-1' href="https://www.linkedin.com/in/divitkarmiani/"><img src="https://img.icons8.com/ios/40/ffffff/linkedin.png" alt='loading..' /></a>
+          <a className='ml-1' href="mailto:divitkarmiani1998@gmail.com"><img src="https://img.icons8.com/ios/47/ffffff/gmail.png" alt='loading..' /></a>
+          <a className='ml-1' href="https://medium.com/@divitkarmiani1998"><img src="https://img.icons8.com/ios/40/ffffff/medium-monogram.png" alt='loading..' /></a>
 
     </Col>
-    <Col xs={4}   className="call  text-center">
+    <Col xs={6}   className="call  text-center">
     <img src="https://img.icons8.com/android/25/ffffff/phone-disconnected.png" alt='loading..' />
     <span style={{color: 'white'}}>Phone:</span>
     <h6 style={{color: 'white'}}>+91-9892302788</h6>

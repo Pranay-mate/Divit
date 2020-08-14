@@ -32,7 +32,7 @@ function AboutMe() {
         <p>#Want to live upto my name’s meaning. “Divit” stands for Immortal.</p>
         <p>#Lovetotravel #Foodie #Learningtocook #WanttobeIndependent</p>
 
-        <a href="https://drive.google.com/file/d/1PDlOnjNMeUxkiwvyT-3B4cnDg7RuvwfS/view?usp=sharing">  <button type="button" class="btn btn-dark">Resume</button></a>
+        <a href="https://drive.google.com/file/d/145TSumFN7G2oYIEu51QlYh0LJ9poCJqo/view?usp=sharing">  <button type="button" class="btn btn-dark">Resume</button></a>
 
         </Col>
 

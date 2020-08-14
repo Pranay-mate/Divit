@@ -5,7 +5,7 @@
 }
 .mine{
 border: 0.2em solid white;
-height: calc(9em + 1vh);
+height: calc(5em + 1vh);
 width: calc(14em + 1vh);
 margin-top: calc(4em + 1vh);
 
@@ -16,11 +16,11 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .AboutMe h1{
-  font-size: calc(1.4em + 1vw);
+  font-size: calc(1em + 1vw);
 }
 
 .AboutText h5{
-  font-size: calc(0.5em + 1vw);
+  font-size: calc(0.4em + 1vw);
 
   padding-bottom: 12px;
   color: grey;
