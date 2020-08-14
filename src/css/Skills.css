@@ -1,0 +1,15 @@
+.Chart{
+
+}
+.Chart{
+  padding: 2.5em 2em 2em 2em;
+
+}
+#skills h1{
+  font-weight: bold;
+  padding: 25px;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 2px 2px grey;
+  background-color: #FFB001;
+}

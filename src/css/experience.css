@@ -1,0 +1,41 @@
+.Experience{
+    background-color: #dcdcdc;
+}
+.Experience h1{
+    color: black;
+    background-color: black;
+}
+.vertical-timeline-element{
+       border-radius: 2px;
+       margin-bottom: 15px;
+       opacity: 1;
+      transition: 0.3s;
+     }
+.vertical-timeline-element:hover {
+  transition: 0.5s;
+
+
+}
+.icon{
+  padding-top: 7px;
+}
+.Experience h1{
+  padding: 0.5em;
+  font-size: bold;
+  color: white;
+  font-family: 'Playfair Display', serif;
+}
+.Experience h3{
+  font-family: 'Bree Serif', serif;
+}
+
+
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #a9a9a9;
+}
