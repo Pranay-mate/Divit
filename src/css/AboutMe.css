@@ -1,12 +1,12 @@
 .AboutMe{
   padding: 1em 1em;
-  margin-bottom: 5em;
+  margin-bottom: 6em;
 }
 .mine{
 border: 0.5em solid white;
-height: calc(15em + 1vh);
-width: calc(15em + 1vh);
-margin-top: calc(1.5em + 1vh);
+height: calc(17em + 1vh);
+width: calc(17em + 1vh);
+margin-top: calc(2.5em + 1vh);
 
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -16,12 +16,12 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: 1em;
 }
 .AboutText{
-  margin-top:  2.5em;
-  margin-left:  3em;
+  margin-top:  3em;
+  margin-left:  2em;
 }
 .AboutText h1{
   font-weight: bold;
-  font-size: 2em;
+  font-size: calc(2em + 1vh);
 
 }
 .AboutText span{
