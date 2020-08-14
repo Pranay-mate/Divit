@@ -6,7 +6,7 @@
 border: 0.7em solid white;
 height: calc(17em + 1vh);
 width: calc(17em + 1vh);
-margin-top: calc(2.5em + 1vh);
+margin-top: calc(3em + 1vh);
 
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
