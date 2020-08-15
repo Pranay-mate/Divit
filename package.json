@@ -23,7 +23,9 @@
     "react-tabs": "^3.1.1",
     "react-typist": "^2.0.5",
     "react-vertical-timeline-component": "^3.0.2",
-    "reactstrap": "^8.5.1"
+    "reactstrap": "^8.5.1",
+    "vertical-timeline-component-for-react": "^1.0.7",
+    "vertical-timeline-component-react": "^1.2.4"
   },
   "scripts": {
     "start": "react-scripts start",

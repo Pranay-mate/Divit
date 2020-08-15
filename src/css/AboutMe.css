@@ -1,34 +1,75 @@
 .AboutMe{
   padding: 1em 1em;
-  margin-bottom: 6em;
+  padding-bottom:  calc(8em + 1vh);
+  padding-top: calc(8em + 1vh);
+  background-color: #f8f9fc;
 }
 .mine{
 border: 0.7em solid white;
-height: calc(17em + 1vh);
-width: calc(17em + 1vh);
-margin-top: calc(3em + 1vh);
+height: calc(21em + 1vh);
+width: calc(28em + 1vh);
 
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media screen and (max-width: 600px) {
+  .mine{
+  height: calc(15em + 1vh);
+  width: calc(17em + 1vh);
 
+  }
+}
 
 .AboutMe .btn{
   margin-top: 1em;
 }
 .AboutText{
-  margin-top:  3em;
-  margin-left:  2em;
+  margin-top: calc(2.2em + 1vh);
+
 }
 .AboutText h1{
   font-weight: bold;
-  font-size: calc(2em + 1vh);
+
 
 }
 .AboutText span{
   font-weight: bold;
-  font-size: 2em;
   color: red;
 
 }
-.h{
+@media screen and (max-width: 600px) {
+  .AboutText h1 {
+    font-size: calc(2em + 1vh);
+
+  }
+}
+@media screen and (min-width: 601px) {
+  .AboutText span {
+    font-size: calc(3em + 1vh);
+
+  }
+}
+@media screen and (max-width: 600px) {
+  .AboutText span {
+    font-size: calc(2em + 1vh);
+
+  }
+}
+@media screen and (min-width: 601px) {
+  .AboutText h1 {
+    font-size: calc(3.7em + 1vh);
+
+  }
+}
+@media screen and (max-width: 600px) {
+  .AboutText {
+    margin-left: calc(2em + 1vh);
+
+  }
+}
+@media screen and (min-width: 601px) {
+  .AboutText {
+    margin-left: calc(4em + 1vh);
+
+
+  }
 }

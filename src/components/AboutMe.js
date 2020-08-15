@@ -15,10 +15,10 @@ function AboutMe() {
 
   <Container>
       <Row>
-         <Col xs={12} sm={5} className=' text-center'>
+         <Col xs={12} sm={4} className=' text-center'>
           <Image className='mine img-fluid' src={mine} roundedCircle  alt='loading..' />
         </Col>
-        <Col xs={12}  sm={7} className=''>
+        <Col xs={12}  sm={8} className=''>
         <div className='AboutText'>
         <p>WELCOME TO MY WORLD</p>
 
