@@ -6,8 +6,8 @@
 }
 .mine{
 border: 0.7em solid white;
-height: calc(21em + 1vh);
-width: calc(21em + 1vh);
+height: calc(23em + 1vh);
+width: calc(23em + 1vh);
 
 box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -27,13 +27,13 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .AboutText h1{
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 
 
 }
 .AboutText span{
-  font-weight: bold;
   color: red;
+  font-family: 'Montserrat', sans-serif;
 
 }
 @media screen and (max-width: 600px) {
@@ -44,7 +44,7 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (min-width: 601px) {
   .AboutText h1 {
-    font-size: calc(3.7em + 1vh);
+    font-size: calc(2.7em + 1vh);
 
   }
 }
@@ -69,7 +69,7 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (min-width: 601px) {
   .AboutText {
-    margin-left: calc(4em + 1vh);
+    margin-left: calc(1em + 1vh);
 
 
   }

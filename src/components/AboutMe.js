@@ -20,10 +20,10 @@ function AboutMe() {
     <div className="AboutMe container-fluid ">
   <Container fluid>
       <Row>
-         <Col xs={12} sm={4} className=' text-center'>
+         <Col xs={12} sm={5} className=' text-center'>
           <Image className='mine img-fluid' src={mineg} roundedCircle  alt='loading..' />
         </Col>
-        <Col xs={12}  sm={8} className=''>
+        <Col xs={12}  sm={7} className=''>
         <div className='AboutText'>
         <p>WELCOME TO MY WORLD</p>
 
@@ -32,9 +32,9 @@ function AboutMe() {
         <span className=''>DevOps Engineer.</span>
         </Typist>
         <h1 className=''>based in Mumbai.</h1>
-        <a className='ml-1' href="https://www.linkedin.com/in/divitkarmiani/"><img src={linkedin} height='50px'  alt='loading..' /></a>
-        <a className='ml-1' href="mailto:divitkarmiani1998@gmail.com"><img src={gmail} height='50px'  alt='loading..' /></a>
-        <a className='ml-1' href="https://medium.com/@divitkarmiani1998"><img src={medium} height='50px'  alt='loading..' /></a>
+        <a className='ml-1' href="https://www.linkedin.com/in/divitkarmiani/"><img src={linkedin} height='40px'  alt='loading..' /></a>
+        <a className='ml-1' href="mailto:divitkarmiani1998@gmail.com"><img src={gmail} height='35px'  alt='loading..' /></a>
+        <a className='ml-1' href="https://medium.com/@divitkarmiani1998"><img src={medium} height='40px'  alt='loading..' /></a>
 
         </div>
 
