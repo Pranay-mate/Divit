@@ -11,6 +11,7 @@ import '../css/experience.css';
 function Experience() {
   return (
     <div className="Experience text-center">
+    <h1>Experience</h1>
 
   <Timeline lineColor={'#ddd'}>
 

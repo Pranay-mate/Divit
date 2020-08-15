@@ -43,6 +43,12 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 }
 @media screen and (min-width: 601px) {
+  .AboutText h1 {
+    font-size: calc(3.7em + 1vh);
+
+  }
+}
+@media screen and (min-width: 601px) {
   .AboutText span {
     font-size: calc(3em + 1vh);
 
@@ -54,12 +60,7 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   }
 }
-@media screen and (min-width: 601px) {
-  .AboutText h1 {
-    font-size: calc(3.7em + 1vh);
 
-  }
-}
 @media screen and (max-width: 600px) {
   .AboutText {
     margin-left: calc(2em + 1vh);
