@@ -7,7 +7,7 @@
 .mine{
 border: 0.7em solid white;
 height: calc(21em + 1vh);
-width: calc(28em + 1vh);
+width: calc(21em + 1vh);
 
 box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
