@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.54290cbe.chunk.css",
+    "main.css": "/Divit/static/css/main.197cc3b2.chunk.css",
     "main.js": "/Divit/static/js/main.943e1c9d.chunk.js",
     "main.js.map": "/Divit/static/js/main.943e1c9d.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
@@ -9,10 +9,10 @@
     "static/js/2.40c75e26.chunk.js": "/Divit/static/js/2.40c75e26.chunk.js",
     "static/js/2.40c75e26.chunk.js.map": "/Divit/static/js/2.40c75e26.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.83ef7794aee73c23cd250e7d57a54a6d.js": "/Divit/precache-manifest.83ef7794aee73c23cd250e7d57a54a6d.js",
+    "precache-manifest.7aafbbf2f93caa5a071d88c61b499b57.js": "/Divit/precache-manifest.7aafbbf2f93caa5a071d88c61b499b57.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.54290cbe.chunk.css.map": "/Divit/static/css/main.54290cbe.chunk.css.map",
+    "static/css/main.197cc3b2.chunk.css.map": "/Divit/static/css/main.197cc3b2.chunk.css.map",
     "static/js/2.40c75e26.chunk.js.LICENSE.txt": "/Divit/static/js/2.40c75e26.chunk.js.LICENSE.txt",
     "static/media/Netflix.jpeg": "/Divit/static/media/Netflix.97a1b7c8.jpeg",
     "static/media/badminton.jpeg": "/Divit/static/media/badminton.d5fd6afd.jpeg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
     "static/js/2.40c75e26.chunk.js",
-    "static/css/main.54290cbe.chunk.css",
+    "static/css/main.197cc3b2.chunk.css",
     "static/js/main.943e1c9d.chunk.js"
   ]
 }
