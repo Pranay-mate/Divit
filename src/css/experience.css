@@ -1,5 +1,5 @@
 .Experience{
-    background-color: #dcdcdc;
+    background-color: white;
 }
 .Experience h1{
     color: black;
@@ -27,6 +27,9 @@
 }
 .Experience h3{
   font-family: 'Bree Serif', serif;
+}
+.Experience p{
+  margin: 1px;
 }
 
 
