@@ -1,32 +1,34 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.f8aaa9d1.chunk.css",
-    "main.js": "/Divit/static/js/main.96d1cea7.chunk.js",
-    "main.js.map": "/Divit/static/js/main.96d1cea7.chunk.js.map",
+    "main.css": "/Divit/static/css/main.1cae96a2.chunk.css",
+    "main.js": "/Divit/static/js/main.7fc528e1.chunk.js",
+    "main.js.map": "/Divit/static/js/main.7fc528e1.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.cb0d2324.chunk.css": "/Divit/static/css/2.cb0d2324.chunk.css",
-    "static/js/2.679efc9c.chunk.js": "/Divit/static/js/2.679efc9c.chunk.js",
-    "static/js/2.679efc9c.chunk.js.map": "/Divit/static/js/2.679efc9c.chunk.js.map",
+    "static/js/2.41a0e1fe.chunk.js": "/Divit/static/js/2.41a0e1fe.chunk.js",
+    "static/js/2.41a0e1fe.chunk.js.map": "/Divit/static/js/2.41a0e1fe.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.a26dc9dfb7f10f304b9539302e157720.js": "/Divit/precache-manifest.a26dc9dfb7f10f304b9539302e157720.js",
+    "precache-manifest.a272d91c156cab1d33a0f3416e1c5e9f.js": "/Divit/precache-manifest.a272d91c156cab1d33a0f3416e1c5e9f.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.f8aaa9d1.chunk.css.map": "/Divit/static/css/main.f8aaa9d1.chunk.css.map",
-    "static/js/2.679efc9c.chunk.js.LICENSE.txt": "/Divit/static/js/2.679efc9c.chunk.js.LICENSE.txt",
+    "static/css/main.1cae96a2.chunk.css.map": "/Divit/static/css/main.1cae96a2.chunk.css.map",
+    "static/js/2.41a0e1fe.chunk.js.LICENSE.txt": "/Divit/static/js/2.41a0e1fe.chunk.js.LICENSE.txt",
     "static/media/Netflix.jpeg": "/Divit/static/media/Netflix.97a1b7c8.jpeg",
     "static/media/badminton.jpeg": "/Divit/static/media/badminton.d5fd6afd.jpeg",
     "static/media/badminton1.jpg": "/Divit/static/media/badminton1.3cafd792.jpg",
     "static/media/dance.jpeg": "/Divit/static/media/dance.5e3a2e8b.jpeg",
     "static/media/dance1.jpg": "/Divit/static/media/dance1.eaa7a38f.jpg",
     "static/media/mine.jpg": "/Divit/static/media/mine.1fd8e06c.jpg",
+    "static/media/mineg.jpg": "/Divit/static/media/mineg.cd8dea6b.jpg",
+    "static/media/minew.jpg": "/Divit/static/media/minew.ad8f0e8e.jpg",
     "static/media/styles.css": "/Divit/static/media/revicons.2feb69cc.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
-    "static/js/2.679efc9c.chunk.js",
-    "static/css/main.f8aaa9d1.chunk.css",
-    "static/js/main.96d1cea7.chunk.js"
+    "static/js/2.41a0e1fe.chunk.js",
+    "static/css/main.1cae96a2.chunk.css",
+    "static/js/main.7fc528e1.chunk.js"
   ]
 }
