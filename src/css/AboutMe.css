@@ -26,6 +26,13 @@ box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-top: calc(2.2em + 1vh);
 
 }
+.AboutText p{
+  font-family: 'Poppins', sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 4px;
+margin-bottom: 20px;
+}
 .AboutText h1{
   font-family: 'Montserrat', sans-serif;
 
