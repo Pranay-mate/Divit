@@ -1,16 +1,16 @@
 
-#skills h1{
-font-weight: bold;
+.aboutMe{
+  visibility: visible; right: 0%; opacity: 1;
 }
 @media screen and (max-width: 600px) {
-  #skills h1 {
-    font-size: calc(1.5em + 1vh);
+  .about h1 {
+    font-size: calc(1.4em + 1vh);
 
   }
 }
 @media screen and (min-width: 601px) {
-  #skills h1 {
-    font-size: calc(3em + 1vh);
+  .about h1 {
+    font-size: calc(1.4em + 1vh);
 
   }
 }
