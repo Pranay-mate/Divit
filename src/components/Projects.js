@@ -109,10 +109,9 @@ return (
        onChange={handleChange}
        indicatorColor="primary"
        textColor="primary"
-       variant="scrollable"
+       variant="full width"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
-          centered
 
      >
        <Tab label="Engineering Final year project" {...a11yProps(0)} />
@@ -139,7 +138,7 @@ return (
      onChangeIndex={handleChangeIndex}
    >
      <TabPanel value={value} index={0} dir={theme.direction}>
-     <CardDeck>
+     <CardDeck className='CardDeck-lg'>
 
 
        <Card>
@@ -155,7 +154,7 @@ return (
          </Card.ImgOverlay>
        </Card>
        <Card>
-         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+         <Card.Img variant="top" className='im' src={Netflix} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
@@ -184,7 +183,7 @@ return (
 
      </TabPanel>
      <TabPanel value={value} index={1} dir={theme.direction}>
-     <CardDeck>
+     <CardDeck className='CardDeck-lg'>
 
 
        <Card>
@@ -200,7 +199,7 @@ return (
          </Card.ImgOverlay>
        </Card>
        <Card>
-         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+         <Card.Img variant="top" className='im' src={Netflix} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
@@ -224,10 +223,11 @@ return (
           </div>
          </Card.ImgOverlay>
        </Card>
-       </CardDeck>
+
+     </CardDeck>
      </TabPanel>
      <TabPanel value={value} index={2} dir={theme.direction}>
-     <CardDeck>
+     <CardDeck className='CardDeck-lg'>
 
 
        <Card>
@@ -243,7 +243,7 @@ return (
          </Card.ImgOverlay>
        </Card>
        <Card>
-         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+         <Card.Img variant="top" className='im' src={Netflix} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
@@ -267,7 +267,8 @@ return (
           </div>
          </Card.ImgOverlay>
        </Card>
-       </CardDeck>
+
+     </CardDeck>
      </TabPanel>
    </SwipeableViews>
  </div>
