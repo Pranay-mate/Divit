@@ -4,6 +4,7 @@ import mine2 from '../images/mine2.png';
 import mine3 from '../images/mine3.png';
 import minew from '../images/minew.jpg';
 import mineg from '../images/mineg.jpg';
+import gifgit from '../images/gifgit.png';
 import medium from '../images/medium.png';
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
@@ -23,7 +24,7 @@ function AboutMe() {
   <Container fluid>
       <Row>
          <Col xs={12} sm={5} className=' text-center'>
-          <Image className='mine img-fluid' src={mine2} roundedCircle  alt='loading..' />
+          <Image className='mine img-fluid' src={gifgit} roundedCircle  alt='loading..' />
         </Col>
         <Col xs={12}  sm={7} className=''>
         <div className='AboutText'>

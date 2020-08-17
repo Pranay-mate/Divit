@@ -12,10 +12,17 @@
   margin: 0px 10px;
 }
 
+@media screen and (max-width: 1400px) {
+  .nav{
+    padding-left: 21em;
+  }
+}
 .nav-link {
   cursor: pointer;
+  color: black;
+
 }
 .Link{
-  color: white;
+  color: black;
   background-color: white;
 }

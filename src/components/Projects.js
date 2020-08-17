@@ -49,6 +49,7 @@ function TabPanel(props) {
 
   return (
     <div
+
       role="tabpanel"
       hidden={value !== index}
       id={`scrollable-auto-tabpanel-${index}`}
@@ -81,49 +82,50 @@ function a11yProps(index) {
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    width: '100%',
-    backgroundColor: theme.palette.background.paper,
   },
 }));
 
 function Projects () {
 
   const classes = useStyles();
-const theme = useTheme();
-const [value, setValue] = React.useState(0);
+  const theme = useTheme();
+  const [value, setValue] = React.useState(0);
 
-const handleChange = (event, newValue) => {
- setValue(newValue);
-};
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
 
-const handleChangeIndex = (index) => {
- setValue(index);
-};
+  const handleChangeIndex = (index) => {
+    setValue(index);
+  };
 
 return (
+  <div className='Projects'>
  <div className={classes.root}>
    <AppBar position="static" color="default">
      <Tabs
-        className='Tabs d-lg-none'
-       value={value}
-       onChange={handleChange}
-       indicatorColor="primary"
-       textColor="primary"
-       variant="full width"
-          scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
+        className='Tabs-sm d-lg-none'
+        value={value}
+           onChange={handleChange}
+           indicatorColor="primary"
+           textColor="primary"
+           variant="scrollable"
+           scrollButtons="auto"
+           aria-label="scrollable auto tabs example"
 
      >
-       <Tab label="Engineering Final year project" {...a11yProps(0)} />
+       <Tab className='t' label="Engineering Final year project" {...a11yProps(0)} />
        <Tab label="Product Management Coursework" {...a11yProps(1)} />
        <Tab label="Product Design and Research Coursework" {...a11yProps(2)} />
      </Tabs>
      <Tabs
-        className='Tabs d-none d-lg-block'
+        className='Tabs-lg d-none d-lg-block'
         value={value}
       onChange={handleChange}
       indicatorColor="primary"
       textColor="primary"
+      variant="fullWidth"
+          aria-label="full width tabs example"
       centered
 
      >
@@ -271,6 +273,7 @@ return (
      </CardDeck>
      </TabPanel>
    </SwipeableViews>
+   </div>
  </div>
 );
 }

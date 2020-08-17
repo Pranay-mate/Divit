@@ -34,8 +34,8 @@ class Navba extends Component {
 
     render() {
   return (
-    <div className='sticky-top'>
-  <Navbar light className="navbar  navbar-light transparent-nav nav-js col-sm-12" expand="md" >
+    <div className=''>
+  <Navbar light className=" col-sm-12 mx-auto" expand="md" >
   <NavbarBrand className="mr-auto" href="/"><Link className="navbar-brand" href="/" activeClass="active"
   to="AboutMe"
   spy={true}
@@ -48,9 +48,9 @@ class Navba extends Component {
   <NavbarToggler onClick={this.toggleNav} />
 
   <Collapse isOpen={this.state.isNavOpen} navbar>
-      <Nav navbar>
+      <Nav className="mx-auto nav">
 
-      <NavItem>
+      <NavItem className=''>
       <Link
       className="nav-item nav-link"
         activeClass="active"
