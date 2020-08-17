@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3010bd7384beed978d7fa0df42ec09b2",
+    "revision": "0cb3c34893028f0d4e86ce13ea984352",
     "url": "/Divit/index.html"
   },
   {
-    "revision": "0c4b4df8d19e74d19647",
+    "revision": "90ea666e68d2f80814d4",
     "url": "/Divit/static/css/2.cb0d2324.chunk.css"
   },
   {
-    "revision": "80b5fffbbc9cb69aad51",
-    "url": "/Divit/static/css/main.e0894171.chunk.css"
+    "revision": "41f81f32667d5e045889",
+    "url": "/Divit/static/css/main.f371f33e.chunk.css"
   },
   {
-    "revision": "0c4b4df8d19e74d19647",
-    "url": "/Divit/static/js/2.7128883e.chunk.js"
+    "revision": "90ea666e68d2f80814d4",
+    "url": "/Divit/static/js/2.f6223a39.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/Divit/static/js/2.7128883e.chunk.js.LICENSE.txt"
+    "revision": "2881c4a89c3c7ad239c40a9c9582b16d",
+    "url": "/Divit/static/js/2.f6223a39.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80b5fffbbc9cb69aad51",
-    "url": "/Divit/static/js/main.3079e22a.chunk.js"
+    "revision": "41f81f32667d5e045889",
+    "url": "/Divit/static/js/main.e935b28c.chunk.js"
   },
   {
     "revision": "7e510d59304ff4fab732",
@@ -58,6 +58,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1fd8e06c5935a25345825c6fed38b03f",
     "url": "/Divit/static/media/mine.1fd8e06c.jpg"
+  },
+  {
+    "revision": "6f55474feb5d4370dfaf173ab518d1a3",
+    "url": "/Divit/static/media/mine2.6f55474f.png"
+  },
+  {
+    "revision": "810db633a568139ea0f826141d7dcd6e",
+    "url": "/Divit/static/media/mine3.810db633.png"
   },
   {
     "revision": "cd8dea6b6fbc26469840d177ed9f1594",
