@@ -8,18 +8,18 @@
   padding: 1em;
 }
 
-.nav-item {
+.nav-item p{
   margin: 0px 10px;
+  color: black!important;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px) {
   .nav{
     padding-left: 21em;
   }
 }
 .nav-link {
   cursor: pointer;
-  color: black;
 
 }
 .Link{

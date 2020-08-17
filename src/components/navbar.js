@@ -35,7 +35,7 @@ class Navba extends Component {
     render() {
   return (
     <div className=''>
-  <Navbar light className=" col-sm-12 mx-auto" expand="md" >
+  <Navbar light className=" col-sm-12 " expand="md" >
   <NavbarBrand className="mr-auto" href="/"><Link className="navbar-brand" href="/" activeClass="active"
   to="AboutMe"
   spy={true}
@@ -48,18 +48,17 @@ class Navba extends Component {
   <NavbarToggler onClick={this.toggleNav} />
 
   <Collapse isOpen={this.state.isNavOpen} navbar>
-      <Nav className="mx-auto nav">
+      <Nav navbar className='ml-auto nav '>
 
-      <NavItem className=''>
+      <NavItem>
       <Link
       className="nav-item nav-link"
-        activeClass="active"
         to="AboutMe"
         spy={true}
         smooth={true}
         offset={-70}
         duration={500}
-      >About Me</Link>
+      ><p>About Me</p></Link>
       </NavItem>
 
       <NavItem>
@@ -71,7 +70,7 @@ class Navba extends Component {
         smooth={true}
         offset={-70}
         duration={500}
-      >Experience</Link>
+      ><p>Experience</p></Link>
       </NavItem>
 
       <NavItem>
@@ -83,7 +82,7 @@ class Navba extends Component {
         smooth={true}
         offset={-60}
         duration={500}
-      >Skills</Link>
+      ><p>Skills</p></Link>
       </NavItem>
 
       <NavItem>
@@ -95,7 +94,7 @@ class Navba extends Component {
         smooth={true}
         offset={-70}
         duration={500}
-      >Projects</Link>
+      ><p>Projects</p></Link>
       </NavItem>
 
       <NavItem>
@@ -107,7 +106,7 @@ class Navba extends Component {
         smooth={true}
         offset={-65}
         duration={500}
-      >Interests</Link>
+      ><p>Interests</p></Link>
       </NavItem>
       <NavItem>
       <Link
@@ -118,7 +117,7 @@ class Navba extends Component {
         smooth={true}
         offset={-70}
         duration={500}
-      >ContactInfo</Link>
+      ><p>ContactInfo</p></Link>
       </NavItem>
 
       </Nav>
