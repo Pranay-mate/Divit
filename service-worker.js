@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Divit/precache-manifest.66b3a7b57c575fb7553cc1c3c0a10a23.js"
+  "/Divit/precache-manifest.d02761193b742f7e2a8966c34fd7a499.js"
 );
 
 self.addEventListener('message', (event) => {
