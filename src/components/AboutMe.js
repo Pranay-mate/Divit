@@ -1,5 +1,7 @@
 import React from 'react';
 import mine from '../images/mine.jpg';
+import mine2 from '../images/mine2.png';
+import mine3 from '../images/mine3.png';
 import minew from '../images/minew.jpg';
 import mineg from '../images/mineg.jpg';
 import medium from '../images/medium.png';
@@ -21,7 +23,7 @@ function AboutMe() {
   <Container fluid>
       <Row>
          <Col xs={12} sm={5} className=' text-center'>
-          <Image className='mine img-fluid' src={mineg} roundedCircle  alt='loading..' />
+          <Image className='mine img-fluid' src={mine2} roundedCircle  alt='loading..' />
         </Col>
         <Col xs={12}  sm={7} className=''>
         <div className='AboutText'>

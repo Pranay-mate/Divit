@@ -67,7 +67,7 @@ class Interests extends React.Component {
 
             </ScrollAnimation>
             <h5>What I like</h5>
-            
+
             </Col>
         </Row>
 

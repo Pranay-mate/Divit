@@ -8,6 +8,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Chart from "react-google-charts";
+
+
+
 import '../css/Skills.css';
 
 
@@ -40,7 +43,7 @@ class Skills extends React.Component {
           <p>  #Product Management, Product Design enthusiast</p>
         <p>    #Want to live upto my name’s meaning. “Divit” stands for Immortal.</p>
           <p>  #Lovetotravel #Foodie #Learningtocook #WanttobeIndependent</p>
-            					
+
             					</div>
 
             </div>
@@ -50,208 +53,52 @@ class Skills extends React.Component {
 
            <p>skills</p>
            <Chart
-     width='100%'
-     height={400}
-     chartType="Bar"
-     loader={<div>Loading Chart</div>}
-     data={[
+          width='100%'
+          height={300}
+          chartType="Bar"
+          loader={<div>Loading Chart</div>}
+          data={[
 
-       ['Skills', 'Skills'],
-       ['Product Management', 'Beginner'],
-       ['Market Research', 'Beginner'],
-       ['Shell Scripting', 'Intermediate'],
-       ['Jenkins', 'Beginner'],
-       ['Docker', 'Intermediate'],
-       ['Ansible', 'Intermediate'],
-       ['Python', 'Intermediate'],
-       ['Java', 'Intermediate'],
-       ['C++', 'Intermediate'],
-       ['C', 'Intermediate'],
+          ['Skills', 'Skills'],
+          ['Product Management', 'Beginner'],
+          ['Market Research', 'Beginner'],
+          ['Shell Scripting', 'Intermediate'],
+          ['Jenkins', 'Beginner'],
+          ['Docker', 'Intermediate'],
+          ['Ansible', 'Intermediate'],
+          ['Python', 'Intermediate'],
+          ['Java', 'Intermediate'],
+          ['C++', 'Intermediate'],
+          ['C', 'Intermediate'],
 
-     ]}
-     options={{
-       title: 'Population of Largest U.S. Cities',
-       chartArea: { width: '100%' },
-       hAxis: {
-         title: 'Total Population',
-       },
-       legend: { position: 'none' },
-       vAxis: {
-         title: 'City',
-         textStyle:{
-           color:'red',
-         }
-       },
-       bars: 'vertical',
-
-       axes: {
-      y: {
-        0: { side: 'bottom' },
-        slantedText: true
+          ]}
+          options={{
+          title: 'Population of Largest U.S. Cities',
+          chartArea: { width: '50%' },
+          colors: ['#1A5BB9', '#ffab91'],
+          titleTextStyle: {
+          color: 'red',
+          fontSize: 20,
+          bold: true,
       },
-    },
-       textPosition:'out'
-     }}
-     legendToggle
-   />
-
-           </div>
-           </Col>
-           <Col xs={12}  sm={12} className=''>
-           <div className=''>
-
-           <p>skills</p>
-           <Chart
-     width='100%'
-     height={400}
-     chartType="Bar"
-     loader={<div>Loading Chart</div>}
-     data={[
-
-       ['Skills', 'Skills'],
-       ['Product Management', 'Beginner'],
-       ['Market Research', 'Beginner'],
-       ['Shell Scripting', 'Intermediate'],
-       ['Jenkins', 'Beginner'],
-       ['Docker', 'Intermediate'],
-       ['Ansible', 'Intermediate'],
-       ['Python', 'Intermediate'],
-       ['Java', 'Intermediate'],
-       ['C++', 'Intermediate'],
-       ['C', 'Intermediate'],
-
-     ]}
-     options={{
-       title: 'Population of Largest U.S. Cities',
-       chartArea: { width: '100%' },
-       hAxis: {
-         title: 'Total Population',
-       },
-       legend: { position: 'none' },
-       vAxis: {
-         title: 'City',
-         textStyle:{
+          legend: { position: 'none' },
+          vAxis: {
+          title: 'City',
+          textStyle:{
            color:'red',
-         }
-       },
-       bars: 'vertical',
+          }
+          },
+          bars: 'horizontal',
 
-       axes: {
-      y: {
-        0: { side: 'bottom' },
-        slantedText: true
-      },
-    },
-       textPosition:'out'
-     }}
-     legendToggle
-   />
-
-           </div>
-           </Col>
-           <Col xs={12}  sm={7} className=''>
-           <div className=''>
-
-           <p>skills</p>
-           <Chart
-     width='100%'
-     height={400}
-     chartType="Bar"
-     loader={<div>Loading Chart</div>}
-     data={[
-
-       ['Skills', 'Skills'],
-       ['Product Management', 'Beginner'],
-       ['Market Research', 'Beginner'],
-       ['Shell Scripting', 'Intermediate'],
-       ['Jenkins', 'Beginner'],
-       ['Docker', 'Intermediate'],
-       ['Ansible', 'Intermediate'],
-       ['Python', 'Intermediate'],
-       ['Java', 'Intermediate'],
-       ['C++', 'Intermediate'],
-       ['C', 'Intermediate'],
-
-     ]}
-     options={{
-       title: 'Population of Largest U.S. Cities',
-       chartArea: { width: '100%' },
-       hAxis: {
-         title: 'Total Population',
-       },
-       legend: { position: 'none' },
-       vAxis: {
-         title: 'City',
-         textStyle:{
-           color:'red',
-         }
-       },
-       bars: 'horizontal',
-
-       axes: {
-      y: {
-        0: { side: 'right' },
-        slantedText: true
-      },
-    },
-       textPosition:'out'
-     }}
-     legendToggle
-   />
-
-           </div>
-           </Col>
-           <Col xs={12}  sm={7} className=''>
-           <div className=''>
-
-           <p>skills</p>
-           <Chart
-     width='100%'
-     height={400}
-     chartType="Bar"
-     loader={<div>Loading Chart</div>}
-     data={[
-
-       ['Skills', 'Skills'],
-       ['Product Management', 'Beginner'],
-       ['Market Research', 'Beginner'],
-       ['Shell Scripting', 'Intermediate'],
-       ['Jenkins', 'Beginner'],
-       ['Docker', 'Intermediate'],
-       ['Ansible', 'Intermediate'],
-       ['Python', 'Intermediate'],
-       ['Java', 'Intermediate'],
-       ['C++', 'Intermediate'],
-       ['C', 'Intermediate'],
-
-     ]}
-     options={{
-       title: 'Population of Largest U.S. Cities',
-       chartArea: { width: '100%' },
-       hAxis: {
-         title: 'Total Population',
-       },
-       legend: { position: 'none' },
-       vAxis: {
-         title: 'City',
-         textStyle:{
-           color:'red',
-         }
-       },
-       bars: 'horizontal',
-
-       axes: {
-      y: {
-        0: { side: 'left' },
-        slantedText: true
-      },
-    },
-       textPosition:'out'
-     }}
-     legendToggle
-   />
-
-           </div>
+          axes: {
+          y: {
+          0: { side: 'left' },
+          slantedText: true
+          },
+          },
+          }}
+          />
+</div>
            </Col>
 
 

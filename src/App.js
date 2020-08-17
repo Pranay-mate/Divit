@@ -18,8 +18,6 @@ function App() {
       <Experience />
 
       <Projects />
-      <Interests />
-      <ContactInfo />
     </div>
   );
 }

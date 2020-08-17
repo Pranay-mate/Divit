@@ -1,11 +1,19 @@
 .TabList{
 background-color: grey;
 }
-#Tab2{
+.Projects{
+  background-color: grey;
 
 }
-.carousel-inner {
+.caurosal{
   height: 500px;
+}
+.flex-column{
+  background-color: white;
+}
+.carousel-inner {
+
+  height: 400px;
   margin: 50px 0px 0px 0px;
 }
 .carousel-indicators {
@@ -50,4 +58,17 @@ background-color: grey;
 }
 .carousel-indicators .active {
     background-color: #fff;
+}
+.im{
+  transition: .5s ease;
+  opacity: 1;
+}
+.card:hover .im{
+  opacity: 0.3;
+
+}
+.card-ImgOverlay{
+  position: absolute;
+  left: 1em;
+  bottom: 1em;
 }

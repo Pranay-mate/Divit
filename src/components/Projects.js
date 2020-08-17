@@ -4,114 +4,261 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-
 import TabContainer from 'react-bootstrap/TabContainer';
 import TabContent from 'react-bootstrap/TabContent';
+import TabPane from 'react-bootstrap/TabPane';
+import Nav from 'react-bootstrap/Nav';
 
-import Carousel from 'react-bootstrap/Carousel';
-import Multi from './multiCaurosal';
+import Bat from '../images/badminton.jpeg';
+import Bat1 from '../images/badminton1.jpg';
+import Bat2 from '../images/badminton2.jpg';
+import Netflix from '../images/Netflix.jpeg';
+import Netflix1 from '../images/Netflix1.jpeg';
+import Dance from '../images/dance.jpeg';
+import Dance1 from '../images/dance1.jpg';
+
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
+
+import { AutoRotatingCarousel } from 'material-auto-rotating-carousel';
+import { Slide } from 'material-auto-rotating-carousel';
 
 import '../css/Projects.css';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+import Paper from '@material-ui/core/Paper';
+import Modal from '@material-ui/core/Modal';
+import PropTypes from 'prop-types';
+import SwipeableViews from 'react-swipeable-views';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Tabs from '@material-ui/core/Tabs';
+import Tab from '@material-ui/core/Tab';
+import Typography from '@material-ui/core/Typography';
+import Box from '@material-ui/core/Box';
+const { red, blue, green } = require('@material-ui/core/colors');
+const Button = require('@material-ui/core/Button').default;
 
 
-function Projects() {
-  const [index, setIndex] = useState(0);
 
-const handleSelect = (selectedIndex, e) => {
-  setIndex(selectedIndex);
-};
-let c;
-let a;
-let b;
-  if (index===0) {
 
-    a = <h1>Engineering Final year project</h1>
-  }else if(index===1){
-    b = <h1>Project Management Coursework</h1>
-
-  }else{
-    c = <h1>Product Design and Reasearch Coursework</h1>
-
-  }
-
+function TabPanel(props) {
+  const { children, value, index, ...other } = props;
 
   return (
-    <div className="Projects text-center ">
-    <Tabs>
-    <TabList className='TabList text-left' style={{ backgroundColor:'grey' }}>
-      <Tab id='Tab1' >Engineering Final year project</Tab>
-      <Tab id='Tab2' >Project Management Coursework</Tab>
-      <Tab id='Tab3' >Product Design and Reasearch Coursework</Tab>
-    </TabList>
-
-    <TabPanel>
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
-
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Item>
-        <Carousel.Item>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Item>
-        <Carousel.Item>
-
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-        </Carousel.Item>
-      </Carousel>
-    </TabPanel>
-    <TabPanel>
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
-
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Item>
-        <Carousel.Item>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Item>
-        <Carousel.Item>
-
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-        </Carousel.Item>
-      </Carousel>
-    </TabPanel>
-    <TabPanel>
-    <Carousel className='text-center'>
-  <Carousel.Item>
-
-
-      <p className="reviewer_name" >fsfsfcs</p>
-      <h2>svjksnvjkc </h2>
-      <p className='review_lines'>svkjsnsdkjcn</p>
-
-  </Carousel.Item>
-  <Carousel.Item>
-
-
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  </Carousel.Item>
-  <Carousel.Item>
-
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-  </Carousel.Item>
-  </Carousel>
-    </TabPanel>
-  </Tabs>
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`scrollable-auto-tabpanel-${index}`}
+      aria-labelledby={`scrollable-auto-tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Box p={3}>
+          <Typography>{children}</Typography>
+        </Box>
+      )}
     </div>
   );
+}
+
+TabPanel.propTypes = {
+  children: PropTypes.node,
+  index: PropTypes.any.isRequired,
+  value: PropTypes.any.isRequired,
+};
+
+
+function a11yProps(index) {
+  return {
+    id: `scrollable-auto-tab-${index}`,
+    'aria-controls': `scrollable-auto-tabpanel-${index}`,
+  };
+}
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+    width: '100%',
+    backgroundColor: theme.palette.background.paper,
+  },
+}));
+
+function Projects () {
+
+  const classes = useStyles();
+const theme = useTheme();
+const [value, setValue] = React.useState(0);
+
+const handleChange = (event, newValue) => {
+ setValue(newValue);
+};
+
+const handleChangeIndex = (index) => {
+ setValue(index);
+};
+
+return (
+ <div className={classes.root}>
+   <AppBar position="static" color="default">
+     <Tabs
+        className='Tabs'
+       value={value}
+       onChange={handleChange}
+       indicatorColor="primary"
+       textColor="primary"
+       variant="scrollable"
+          scrollButtons="auto"
+          aria-label="scrollable auto tabs example"
+          centered
+
+     >
+       <Tab label="Engineering Final year project" {...a11yProps(0)} />
+       <Tab label="Product Management Coursework" {...a11yProps(1)} />
+       <Tab label="Product Design and Research Coursework" {...a11yProps(2)} />
+     </Tabs>
+   </AppBar>
+   <SwipeableViews
+     axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+     index={value}
+     onChangeIndex={handleChangeIndex}
+   >
+     <TabPanel value={value} index={0} dir={theme.direction}>
+     <CardDeck>
+
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+</Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+ </Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+</Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+
+     </CardDeck>
+
+     </TabPanel>
+     <TabPanel value={value} index={1} dir={theme.direction}>
+     <CardDeck>
+
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+</Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+ </Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+</Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+       </CardDeck>
+     </TabPanel>
+     <TabPanel value={value} index={2} dir={theme.direction}>
+     <CardDeck>
+
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+</Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+ </Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+
+       <Card>
+         <Card.Img variant="top" className='im' src={Dance} alt='loading..' />
+
+         <Card.ImgOverlay >
+         <div className='card-ImgOverlay'>
+           <Card.Title className=''>Card title</Card.Title>
+           <Button variant="contained" color="secondary">
+  Details
+</Button>
+          </div>
+         </Card.ImgOverlay>
+       </Card>
+       </CardDeck>
+     </TabPanel>
+   </SwipeableViews>
+ </div>
+);
 }
 
 export default Projects;
