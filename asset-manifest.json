@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.e565a369.chunk.css",
-    "main.js": "/Divit/static/js/main.8f014ee0.chunk.js",
-    "main.js.map": "/Divit/static/js/main.8f014ee0.chunk.js.map",
+    "main.css": "/Divit/static/css/main.80d5479b.chunk.css",
+    "main.js": "/Divit/static/js/main.33df5efd.chunk.js",
+    "main.js.map": "/Divit/static/js/main.33df5efd.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.cb0d2324.chunk.css": "/Divit/static/css/2.cb0d2324.chunk.css",
-    "static/js/2.efb094f8.chunk.js": "/Divit/static/js/2.efb094f8.chunk.js",
-    "static/js/2.efb094f8.chunk.js.map": "/Divit/static/js/2.efb094f8.chunk.js.map",
+    "static/js/2.ab1d8fe5.chunk.js": "/Divit/static/js/2.ab1d8fe5.chunk.js",
+    "static/js/2.ab1d8fe5.chunk.js.map": "/Divit/static/js/2.ab1d8fe5.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.0ce0ae3ab95a16f5d4d304051c2428a9.js": "/Divit/precache-manifest.0ce0ae3ab95a16f5d4d304051c2428a9.js",
+    "precache-manifest.1a8157f8970906605de467cb427b1d88.js": "/Divit/precache-manifest.1a8157f8970906605de467cb427b1d88.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.e565a369.chunk.css.map": "/Divit/static/css/main.e565a369.chunk.css.map",
-    "static/js/2.efb094f8.chunk.js.LICENSE.txt": "/Divit/static/js/2.efb094f8.chunk.js.LICENSE.txt",
+    "static/css/main.80d5479b.chunk.css.map": "/Divit/static/css/main.80d5479b.chunk.css.map",
+    "static/js/2.ab1d8fe5.chunk.js.LICENSE.txt": "/Divit/static/js/2.ab1d8fe5.chunk.js.LICENSE.txt",
     "static/media/Netflix.jpeg": "/Divit/static/media/Netflix.97a1b7c8.jpeg",
     "static/media/badminton.jpeg": "/Divit/static/media/badminton.d5fd6afd.jpeg",
     "static/media/badminton1.jpg": "/Divit/static/media/badminton1.3cafd792.jpg",
     "static/media/dance.jpeg": "/Divit/static/media/dance.5e3a2e8b.jpeg",
     "static/media/dance1.jpg": "/Divit/static/media/dance1.eaa7a38f.jpg",
+    "static/media/gifgit.png": "/Divit/static/media/gifgit.810db633.png",
     "static/media/gmail.png": "/Divit/static/media/gmail.b5a365d3.png",
     "static/media/medium.png": "/Divit/static/media/medium.151df821.png",
     "static/media/mine.jpg": "/Divit/static/media/mine.1fd8e06c.jpg",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
-    "static/js/2.efb094f8.chunk.js",
-    "static/css/main.e565a369.chunk.css",
-    "static/js/main.8f014ee0.chunk.js"
+    "static/js/2.ab1d8fe5.chunk.js",
+    "static/css/main.80d5479b.chunk.css",
+    "static/js/main.33df5efd.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5bddc1206887ae9bb64320ef02b812b7",
+    "revision": "0ffbbacec8defbaad97ca5554048a44c",
     "url": "/Divit/index.html"
   },
   {
-    "revision": "136c4f5e8253018aa758",
+    "revision": "0754a04fcc4323e8782d",
     "url": "/Divit/static/css/2.cb0d2324.chunk.css"
   },
   {
-    "revision": "a4666388bc125a335085",
-    "url": "/Divit/static/css/main.e565a369.chunk.css"
+    "revision": "0838d918562cb7f91653",
+    "url": "/Divit/static/css/main.80d5479b.chunk.css"
   },
   {
-    "revision": "136c4f5e8253018aa758",
-    "url": "/Divit/static/js/2.efb094f8.chunk.js"
+    "revision": "0754a04fcc4323e8782d",
+    "url": "/Divit/static/js/2.ab1d8fe5.chunk.js"
   },
   {
     "revision": "2881c4a89c3c7ad239c40a9c9582b16d",
-    "url": "/Divit/static/js/2.efb094f8.chunk.js.LICENSE.txt"
+    "url": "/Divit/static/js/2.ab1d8fe5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4666388bc125a335085",
-    "url": "/Divit/static/js/main.8f014ee0.chunk.js"
+    "revision": "0838d918562cb7f91653",
+    "url": "/Divit/static/js/main.33df5efd.chunk.js"
   },
   {
     "revision": "7e510d59304ff4fab732",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eaa7a38f23fb79f60299331bc4b3bed9",
     "url": "/Divit/static/media/dance1.eaa7a38f.jpg"
+  },
+  {
+    "revision": "810db633a568139ea0f826141d7dcd6e",
+    "url": "/Divit/static/media/gifgit.810db633.png"
   },
   {
     "revision": "b5a365d346c1929f1cbacc5277ccd10d",
