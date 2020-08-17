@@ -104,7 +104,7 @@ return (
  <div className={classes.root}>
    <AppBar position="static" color="default">
      <Tabs
-        className='Tabs'
+        className='Tabs d-lg-none'
        value={value}
        onChange={handleChange}
        indicatorColor="primary"
@@ -113,6 +113,19 @@ return (
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
           centered
+
+     >
+       <Tab label="Engineering Final year project" {...a11yProps(0)} />
+       <Tab label="Product Management Coursework" {...a11yProps(1)} />
+       <Tab label="Product Design and Research Coursework" {...a11yProps(2)} />
+     </Tabs>
+     <Tabs
+        className='Tabs d-none d-lg-block'
+        value={value}
+      onChange={handleChange}
+      indicatorColor="primary"
+      textColor="primary"
+      centered
 
      >
        <Tab label="Engineering Final year project" {...a11yProps(0)} />
