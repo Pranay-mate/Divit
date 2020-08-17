@@ -102,7 +102,7 @@ function Projects () {
 return (
   <div className='Projects'>
  <div className={classes.root}>
-   <AppBar position="static" color="default">
+   <Paper square className='bar'>
      <Tabs
         className='Tabs-sm d-lg-none'
         value={value}
@@ -133,7 +133,7 @@ return (
        <Tab label="Product Management Coursework" {...a11yProps(1)} />
        <Tab label="Product Design and Research Coursework" {...a11yProps(2)} />
      </Tabs>
-   </AppBar>
+   </Paper>
    <SwipeableViews
      axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
      index={value}
