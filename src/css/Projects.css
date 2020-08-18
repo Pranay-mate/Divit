@@ -4,7 +4,7 @@
 }
 @media screen and (min-width: 601px) {
   .bar{
-    margin: 0em 8em;
+    margin: 0em 14em;
   }
 }
 
@@ -41,4 +41,29 @@
 }
 .t{
   font-size: 5px;
+}
+
+.button{
+  color: red!important;
+  background-color: red!important;
+}
+.MuiTab-root {
+  padding: 1px 5px!important;
+     margin: 0px 10px!important;
+    position: relative;
+    font-size: 0.75rem!important;
+     box-sizing:content-box!important;
+    min-height: 40px!important;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+     line-height: 1!important;
+    /* white-space: normal; */
+    letter-spacing: 0em!important;
+    text-transform: uppercase;
+}
+.MuiTab-textColorPrimary.Mui-selected {
+  border: none!important;
+  outline: none!important;
+  outline-color: none!important;
 }
