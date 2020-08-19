@@ -8,6 +8,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Chart from "../components/chart.js";
+import Image from 'react-bootstrap/Image';
+import macaque from '../images/macaques.png';
 
 
 import '../css/Skills.css';
@@ -48,11 +50,27 @@ class Skills extends React.Component {
             <Col xs={12}  sm={5} className='about'>
             <div className=''>
             <div id="text-main">
-            <h1>What my Spirit animal says about me</h1>
+
+            <Container fluid>
+                <Row>
+                   <Col xs={4}  className='macaqueImg'>
+                   <Image className='macaque img-fluid' src={macaque}  alt='loading..' />
+                       </Col>
+                  <Col xs={8}  className='text-left'>
+                  <h1>  What my Spirit animal says about me</h1>
+
+
+                  </Col>
+
+
+                </Row>
+              </Container>
+            <div className='aboutpara'>
           <p>  #Product Management, Product Design enthusiast</p>
-        <p>    #Want to live upto my name’s meaning. “Divit” stands for Immortal.</p>
+          <p>    #Want to live upto my name’s meaning. “Divit” stands for Immortal.</p>
           <p>  #Lovetotravel #Foodie #Learningtocook #WanttobeIndependent</p>
 
+          </div>
             					</div>
 
             </div>
@@ -60,7 +78,6 @@ class Skills extends React.Component {
            <Col xs={12}  sm={7} className=''>
            <div className=''>
 
-           <p>skills</p>
           <Chart chartData={this.state.chartData} redraw={true} lavel="HTML" LegendPosition="bottom" />
 </div>
            </Col>

@@ -26,6 +26,11 @@
 .Experience h3{
   font-family: 'Bree Serif', serif;
 }
+@media screen and (max-width: 600px) {
+  .Experience h3{
+    font-size: 1.7em;
+  }
+}
 .Experience p{
   margin: 1px;
 }
