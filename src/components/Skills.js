@@ -51,7 +51,7 @@ class Skills extends React.Component {
             <div className=''>
             <div id="text-main">
 
-            <Container fluid>
+            <Container fluid style={{padding:'0px'}}>
                 <Row>
                    <Col xs={4}  className='macaqueImg'>
                    <Image className='macaque img-fluid' src={macaque}  alt='loading..' />

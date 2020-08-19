@@ -19,7 +19,7 @@ class Chart extends Component {
       labels: ["C", "C++", "Java", "Python", "Ansible",'Jenkins', "Shell Scripting", "Market Research","Product Management"],
       datasets: [
         {
-          data: [1,2,3,4,3,2,2,1,2],
+          data: [0,2,3,4,3,2,2,1,2],
           backgroundColor: [
             "rgba(255, 99, 132, 0.6)",
             "rgba(54, 162, 235, 0.6)",
@@ -40,6 +40,13 @@ class Chart extends Component {
     },
 
     options: {
+      plugins: {
+      deferred: {
+        xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+        yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
+        delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
+      }
+    },
       legend: {
            display: false,
        },
@@ -47,7 +54,7 @@ class Chart extends Component {
         yAxes: [
           {
             ticks: {
-              maxTicksLimit: 6,
+              maxTicksLimit: 5,
               callback: function(label, index, labels) {
                 console.log("label is: " );
                 if (label === 4) {

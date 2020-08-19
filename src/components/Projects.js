@@ -163,15 +163,24 @@ return (
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-           <Card.Title className=''>Solar Powered Self-Cleaning Toilet</Card.Title>
+           <Card.Title className=''>Final year project</Card.Title>
 
           </div>
          </Card.ImgOverlay>
          <Card.Body >
-<span >Special title treatment</span> <Button className=''  variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1t5vnrZOHB14cP8t4_MIgorqegzzUKA6M/view?usp=sharing'}}>
-Details
-</Button>
+<Container fluid style={{padding:'0px'}}>
+    <Row>
+       <Col xs={9}  className=''>
+       <span >Solar Powered Self-Cleaning Toilet</span>
 
+           </Col>
+      <Col xs={3}  className='text-right'>
+      <Button className=''  variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1t5vnrZOHB14cP8t4_MIgorqegzzUKA6M/view?usp=sharing'}}>
+     Details
+     </Button>
+     </Col>
+    </Row>
+  </Container>
 </Card.Body>
        </Card>
 
@@ -322,30 +331,8 @@ Details
 Details
 </Button>
         </Card.Body>
+
        </Card>
-       <Card className='musicCard'>
-         <Card.Img variant="top" className='im' src={Musicstreaming} alt='loading..' />
-
-         <Card.ImgOverlay >
-         <div className='card-ImgOverlay'>
-         <Card.Title className=''>Blogs</Card.Title>
-
-          </div>
-         </Card.ImgOverlay>
-         <Card.Body >
-        <span >Product Adoption lifecycle for Music streaming services</span> <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/analyse-the-product-adoption-lifecycle-for-music-streaming-services-in-india-6d51815887c4'}}>
-   Details
-   </Button>
-        </Card.Body>
-       </Card>
-
-
-     </CardDeck>
-     <CardDeck className='CardDeck-big2'>
-
-
-
-
        <Card className='zomato'>
          <Card.Img variant="top" className='im ' src={Zomato} alt='loading..' />
 
@@ -362,6 +349,42 @@ Details
 </Button>
         </Card.Body>
        </Card>
+
+
+     </CardDeck>
+     <CardDeck className='CardDeck-big2'>
+
+
+            <Card className='musicCard'>
+              <Card.Img variant="top" className='im' src={Musicstreaming} alt='loading..' />
+
+              <Card.ImgOverlay >
+              <div className='card-ImgOverlay'>
+              <Card.Title className=''>Blogs</Card.Title>
+
+               </div>
+              </Card.ImgOverlay>
+              <Card.Body >
+
+             <Container fluid style={{padding:'0px'}}>
+                 <Row>
+                    <Col xs={9}  className=''>
+                   <span >Product Adoption lifecycle for Music streaming services</span>
+
+                        </Col>
+                   <Col xs={3}  className='text-right'>
+                   <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/analyse-the-product-adoption-lifecycle-for-music-streaming-services-in-india-6d51815887c4'}}>
+                Details
+                </Button>
+                  </Col>
+                 </Row>
+               </Container>
+               </Card.Body>
+               
+            </Card>
+
+
+
 
      </CardDeck>
 
@@ -396,7 +419,7 @@ Details
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Product Critique</Card.Title>
-          
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
