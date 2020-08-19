@@ -15,12 +15,11 @@ class Chart extends Component {
     DisplayLegend: true,
     LegendPosition: "right",
     level: "Skills",
-
     data: {
       labels: ["HTML", "CSS", "Javascript", "Drupal", "ReactJS",'ASSA', "SQL", "web developer","sdfsdfsd","web developer"],
       datasets: [
         {
-          data: [100, 80, 60, 70, 65, 100, 80, 55, 80, 65, 30, 40, 10, 0],
+          data: [0,1,2,3,4,1,3,2,1,1],
           backgroundColor: [
             "rgba(255, 99, 132, 0.6)",
             "rgba(54, 162, 235, 0.6)",
@@ -48,16 +47,17 @@ class Chart extends Component {
         yAxes: [
           {
             ticks: {
+              maxTicksLimit: 6,
               callback: function(label, index, labels) {
-                console.log("label is: " + label);
-                if (label > 75) {
-                  return "Expert: " + label;
-                } else if (label > 50) {
-                  return "Advanced: " + label;
-                } else if (label > 25) {
-                  return "Intermediate: " + label;
-                } else {
-                  return "Beginner: " + label;
+                console.log("label is: " );
+                if (label === 4) {
+                  return "Expert " ;
+                } else if (label === 3) {
+                  return "Advanced ";
+                } else if (label === 2) {
+                  return "Intermediate " ;
+                } else if (label === 1) {
+                  return "Beginner " ;
                 }
                 //                         return '$' + label;
               }
@@ -69,7 +69,8 @@ class Chart extends Component {
   };
   render() {
     return (
-      <Bar data={this.state.chartData} options={this.state.chartOptions} />
+
+      <Bar data={this.state.chartData} options={this.state.chartOptions}  />
     );
   }
 }

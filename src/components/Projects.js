@@ -164,9 +164,7 @@ return (
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
            <Card.Title className=''>Solar Powered Self-Cleaning Toilet</Card.Title>
-           <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1t5vnrZOHB14cP8t4_MIgorqegzzUKA6M/view?usp=sharing'}}>
-  Details
-</Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -247,9 +245,7 @@ Details
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Case study</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1U8cemultFc_BHBmBvdgp1tQRYLS7-opA/view?usp=sharing'}}>
-  Details
-</Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -265,9 +261,7 @@ Details
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Case study</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1XIEgAg0F9osEJ5IC1IFZqxC_E8GWxMP3/view?usp=sharing'}}>
-  Details
- </Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -283,9 +277,7 @@ Details
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>User Journey Maps</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1399C5N2e5KatjSH8UKNibcCKbnFd62p6/view?usp=sharing'}}>
-  Details
-</Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -307,9 +299,7 @@ Details
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Sketch, Wireframes and Prototypes</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1mQ3iSxNFVbyUj3vMfhuIl3b-6CgeY2nG/view?usp=sharing'}}>
-  Details
- </Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -324,9 +314,7 @@ Details
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Industry Project</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1EtWVbQnragHUbCA8yYRDlMRFeyIKm7et/view?usp=sharing'}}>
-  Details
- </Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -335,15 +323,13 @@ Details
 </Button>
         </Card.Body>
        </Card>
-       <Card>
+       <Card className='musicCard'>
          <Card.Img variant="top" className='im' src={Musicstreaming} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Blogs</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/analyse-the-product-adoption-lifecycle-for-music-streaming-services-in-india-6d51815887c4'}}>
-      Details
-      </Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -367,9 +353,7 @@ Details
          <div className='card-ImgOverlay animate__fadeInLeft'>
          <Card.Title className='title'>Blogs</Card.Title>
 
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/example-of-agile-methodology-at-a-company-like-zomato-c33158320f4d'}}>
-  Details
-</Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -388,7 +372,7 @@ Details
 
      </TabPanel>
      <TabPanel value={value} index={2} dir={theme.direction}>
-     <CardDeck className='CardDeck-lg'>
+     <CardDeck className='CardDeck-big3'>
 
 
        <Card>
@@ -397,9 +381,7 @@ Details
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Business Model canvas and Value Proposition cavas</Card.Title>
-           <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/10KgQKMxkhv1MZq3Y-_ukVbDssdPK5CVN/view?usp=sharing'}}>
-  Details
-</Button>
+
           </div>
          </Card.ImgOverlay>
          <Card.Body >
@@ -414,9 +396,7 @@ Details
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Product Critique</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1AVYTT_9CkO7e_E-xThEajtVTm_Z9Stzd/view?usp=sharing'}}>
-  Details
- </Button>
+          
           </div>
          </Card.ImgOverlay>
          <Card.Body >
