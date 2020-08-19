@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.359e70cf.chunk.css",
-    "main.js": "/Divit/static/js/main.ed3b120e.chunk.js",
-    "main.js.map": "/Divit/static/js/main.ed3b120e.chunk.js.map",
+    "main.css": "/Divit/static/css/main.1c898aa7.chunk.css",
+    "main.js": "/Divit/static/js/main.bd417ed1.chunk.js",
+    "main.js.map": "/Divit/static/js/main.bd417ed1.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.cb0d2324.chunk.css": "/Divit/static/css/2.cb0d2324.chunk.css",
-    "static/js/2.56a79e87.chunk.js": "/Divit/static/js/2.56a79e87.chunk.js",
-    "static/js/2.56a79e87.chunk.js.map": "/Divit/static/js/2.56a79e87.chunk.js.map",
+    "static/js/2.281aeb37.chunk.js": "/Divit/static/js/2.281aeb37.chunk.js",
+    "static/js/2.281aeb37.chunk.js.map": "/Divit/static/js/2.281aeb37.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.a4a430a3061a55208c3a263dec19d8ed.js": "/Divit/precache-manifest.a4a430a3061a55208c3a263dec19d8ed.js",
+    "precache-manifest.351c93224c410f0f430a2bcc329fc9f4.js": "/Divit/precache-manifest.351c93224c410f0f430a2bcc329fc9f4.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.359e70cf.chunk.css.map": "/Divit/static/css/main.359e70cf.chunk.css.map",
-    "static/js/2.56a79e87.chunk.js.LICENSE.txt": "/Divit/static/js/2.56a79e87.chunk.js.LICENSE.txt",
+    "static/css/main.1c898aa7.chunk.css.map": "/Divit/static/css/main.1c898aa7.chunk.css.map",
+    "static/js/2.281aeb37.chunk.js.LICENSE.txt": "/Divit/static/js/2.281aeb37.chunk.js.LICENSE.txt",
     "static/media/DoToday.jpg": "/Divit/static/media/DoToday.eb1866e3.jpg",
     "static/media/Flatmate.png": "/Divit/static/media/Flatmate.55b33524.png",
     "static/media/Lyft.jpg": "/Divit/static/media/Lyft.286bb3fe.jpg",
@@ -29,6 +29,7 @@
     "static/media/gifgit.png": "/Divit/static/media/gifgit.810db633.png",
     "static/media/gmail.png": "/Divit/static/media/gmail.b5a365d3.png",
     "static/media/headout.png": "/Divit/static/media/headout.b189df81.png",
+    "static/media/macaques.png": "/Divit/static/media/macaques.51a6ca23.png",
     "static/media/medium.png": "/Divit/static/media/medium.151df821.png",
     "static/media/mine.jpg": "/Divit/static/media/mine.1fd8e06c.jpg",
     "static/media/mine2.png": "/Divit/static/media/mine2.6f55474f.png",
@@ -43,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
-    "static/js/2.56a79e87.chunk.js",
-    "static/css/main.359e70cf.chunk.css",
-    "static/js/main.ed3b120e.chunk.js"
+    "static/js/2.281aeb37.chunk.js",
+    "static/css/main.1c898aa7.chunk.css",
+    "static/js/main.bd417ed1.chunk.js"
   ]
 }
