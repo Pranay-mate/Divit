@@ -155,10 +155,10 @@ return (
      onChangeIndex={handleChangeIndex}
    >
      <TabPanel value={value} index={0} dir={theme.direction}>
-     <CardDeck className='CardDeck-lg'>
+     <CardDeck className='CardDeck-big mx-auto'>
 
 
-       <Card>
+       <Card className=''>
          <Card.Img variant="top" className='im' src={EToilet} alt='loading..' />
 
          <Card.ImgOverlay >
@@ -169,6 +169,12 @@ return (
 </Button>
           </div>
          </Card.ImgOverlay>
+         <Card.Body >
+<span >Special title treatment</span> <Button className=''  variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1t5vnrZOHB14cP8t4_MIgorqegzzUKA6M/view?usp=sharing'}}>
+Details
+</Button>
+
+</Card.Body>
        </Card>
 
 
@@ -186,18 +192,19 @@ return (
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Competitor Analysis</Card.Title>
            <Card.Title className=''>Meru v/s Ola</Card.Title>
-           <Button variant="contained" color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1eQc4nyGDbB0FP7GL2Vf0q_ThWdNasWi2/view?usp=sharing'}}>
-  Details
-</Button>
+
           </div>
          </Card.ImgOverlay>
+         <Card.Footer className="text-muted flex"><h6 className='text-left'>2 days ago</h6>   <Button variant="contained" className='' color="secondary" onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1eQc4nyGDbB0FP7GL2Vf0q_ThWdNasWi2/view?usp=sharing'}}>
+   Details
+ </Button></Card.Footer>
        </Card>
        <Card>
          <Card.Img variant="top" className='im' src={Onlinefurniture} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Case studies</Card.Title>
+         <Card.Title className=''>Case study</Card.Title>
            <Card.Title className=''>Online Furniture rental</Card.Title>
            <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1hnn7vJPCBUj3J_BzBZ4azyhOsv_aA0UT/view?usp=sharing'}}>
   Details
@@ -211,7 +218,7 @@ return (
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Case studies</Card.Title>
+         <Card.Title className=''>Case study</Card.Title>
            <Card.Title className=''>Flatmate.in</Card.Title>
            <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1JPPRM_6BzjpVvkf8cFzrLPOJGABB2lCH/view?usp=sharing'}}>
   Details
@@ -230,9 +237,9 @@ return (
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Case studies</Card.Title>
+         <Card.Title className=''>Case study</Card.Title>
            <Card.Title className=''>Redbus</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1SE7I8cfjEuFgwuMqyVHScyytnbhGeLgC/view?usp=sharing'}}>
+           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1U8cemultFc_BHBmBvdgp1tQRYLS7-opA/view?usp=sharing'}}>
   Details
 </Button>
           </div>
@@ -243,7 +250,7 @@ return (
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Case studies</Card.Title>
+         <Card.Title className=''>Case study</Card.Title>
            <Card.Title className=''>Hotstar</Card.Title>
            <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1XIEgAg0F9osEJ5IC1IFZqxC_E8GWxMP3/view?usp=sharing'}}>
   Details
@@ -305,7 +312,7 @@ return (
          <div className='card-ImgOverlay'>
          <Card.Title className=''>Blogs</Card.Title>
            <Card.Title className=''>Product Adoption lifecycle for Music streaming services</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1_s68PXl21gDcvIoW77sy2xj0ab3tDBjj/view?usp=sharing'}}>
+           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/analyse-the-product-adoption-lifecycle-for-music-streaming-services-in-india-6d51815887c4'}}>
       Details
       </Button>
           </div>
@@ -314,20 +321,20 @@ return (
 
 
      </CardDeck>
-     <CardDeck className='CardDeck-lg'>
+     <CardDeck className='CardDeck-big2'>
 
 
 
-       
-       <Card>
-         <Card.Img variant="top" className='im' src={Zomato} alt='loading..' />
+
+       <Card className='zomato'>
+         <Card.Img variant="top" className='im ' src={Zomato} alt='loading..' />
 
          <Card.ImgOverlay >
-         <div className='card-ImgOverlay'>
-         <Card.Title className=''>Blogs</Card.Title>
+         <div className='card-ImgOverlay animate__fadeInLeft'>
+         <Card.Title className='title'>Blogs</Card.Title>
 
            <Card.Title className=''>Agile Methodology in Zomato</Card.Title>
-           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1EtWVbQnragHUbCA8yYRDlMRFeyIKm7et/view?usp=sharing'}}>
+           <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://medium.com/@divitkarmiani1998/example-of-agile-methodology-at-a-company-like-zomato-c33158320f4d'}}>
   Details
 </Button>
           </div>
@@ -364,7 +371,7 @@ return (
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Product Ceitique</Card.Title>
+         <Card.Title className=''>Product Critique</Card.Title>
            <Card.Title className=''>HeadOut</Card.Title>
            <Button variant="contained" color="secondary"  onClick={(e)=>{window.location.href='https://drive.google.com/file/d/1AVYTT_9CkO7e_E-xThEajtVTm_Z9Stzd/view?usp=sharing'}}>
   Details

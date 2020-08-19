@@ -7,8 +7,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Chart from "react-google-charts";
-
+import Chart from "../components/chart.js";
 
 
 import '../css/Skills.css';
@@ -29,6 +28,50 @@ const data = {
   ]
 };
 class Skills extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      chartData: {}
+    };
+  }
+
+  componentWillMount() {
+    this.getChartData();
+  }
+
+  getChartData() {
+    //Ajax calls here
+    this.setState({
+      chartData: {
+        labels: [
+          "HTML",
+          "CSS",
+          "React JS",
+          "Javascript",
+          "SQL",
+          "Drupal"
+        ],
+        datasets: [
+          {
+           // labels: "Level",
+           labels: ["Expert", "Advanced", "Intermediate", "Beginner"],
+           data: [90, 90, 40, 40, 60, 80, 40, 30, 20, 10, 0, 100],
+            //labels: ["Expert", "Advanced", "Intermediate", "Beginner"],
+            displays: ["Expert", "Advanced", "Intermediate", "Beginner"],
+            backgroundColor: [
+              "rgba(255, 99, 132, 0.6)",
+              "rgba(54, 162, 235, 0.6)",
+              "rgba(255, 206, 86, 0.6)",
+              "rgba(75, 192, 192, 0.6)",
+              "rgba(153, 102, 235, 0.6)",
+              "rgba(255, 159, 132, 0.6)",
+              "rgba(255, 99, 132, 0.6)"
+            ]
+          }
+        ]
+      }
+    });
+  }
  render() {
 
    return (
@@ -52,52 +95,7 @@ class Skills extends React.Component {
            <div className=''>
 
            <p>skills</p>
-           <Chart
-          width='100%'
-          height={300}
-          chartType="Bar"
-          loader={<div>Loading Chart</div>}
-          data={[
-
-          ['Skills', 'Skills'],
-          ['Product Management', 'Beginner'],
-          ['Market Research', 'Beginner'],
-          ['Shell Scripting', 'Intermediate'],
-          ['Jenkins', 'Beginner'],
-          ['Docker', 'Intermediate'],
-          ['Ansible', 'Intermediate'],
-          ['Python', 'Intermediate'],
-          ['Java', 'Intermediate'],
-          ['C++', 'Intermediate'],
-          ['C', 'Intermediate'],
-
-          ]}
-          options={{
-          title: 'Population of Largest U.S. Cities',
-          chartArea: { width: '50%' },
-          colors: ['#1A5BB9', '#ffab91'],
-          titleTextStyle: {
-          color: 'red',
-          fontSize: 20,
-          bold: true,
-      },
-          legend: { position: 'none' },
-          vAxis: {
-          title: 'City',
-          textStyle:{
-           color:'red',
-          }
-          },
-          bars: 'horizontal',
-
-          axes: {
-          y: {
-          0: { side: 'left' },
-          slantedText: true
-          },
-          },
-          }}
-          />
+          <Chart chartData={this.state.chartData} lavel="HTML" LegendPosition="bottom" />
 </div>
            </Col>
 
