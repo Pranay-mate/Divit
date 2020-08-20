@@ -43,7 +43,7 @@ font-family: 'Roboto', sans-serif;
 @media screen and (max-width: 600px) {
   .card-body {
       font-size: 12px;
-      font-weight: 450;
+      font-weight: 600;
 
   }
 
@@ -76,7 +76,8 @@ font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 600px) {
   .musicCard{
-
+    font-size: 12px;
+    font-weight: 450;
     height: 18.7em;
   }
 
