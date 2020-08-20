@@ -19,12 +19,14 @@ class Chart extends Component {
       labels: ["C", "C++", "Java", "Python", "Ansible",'Jenkins', "Shell Scripting", "Market Research","Product Management"],
       datasets: [
         {
-          data: [4,2,2,3,2,2,2,1,0],
+          data: [4,2,2,3,2,2,2,1,1,0],
           backgroundColor: [
-            "rgba(255, 99, 132, 0.6)",
             "rgba(54, 162, 235, 0.6)",
             "rgba(255, 206, 86, 0.6)",
             "rgba(75, 192, 192, 0.6)",
+            "rgba(153, 102, 235, 0.6)",
+            "rgba(255, 159, 132, 0.6)",
+            "rgba(255, 99, 132, 0.6)",
             "rgba(153, 102, 235, 0.6)",
             "rgba(255, 159, 132, 0.6)",
             "rgba(255, 99, 132, 0.6)"
@@ -66,7 +68,7 @@ class Chart extends Component {
                 } else if (label === 1) {
                   return "Beginner" ;
                 } else {
-                  return 'start';
+                  return '';
                 }
                 //                         return '$' + label;
               }
