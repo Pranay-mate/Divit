@@ -369,7 +369,7 @@ Details
              <Container fluid style={{padding:'0px'}}>
                  <Row>
                     <Col xs={9}  className=''>
-                   <span >Product Adoption lifecycle for Music streaming services</span>
+                   <span className=''>Product Adoption lifecycle for Music streaming services</span>
 
                         </Col>
                    <Col xs={3}  className='text-right'>
@@ -380,7 +380,7 @@ Details
                  </Row>
                </Container>
                </Card.Body>
-               
+
             </Card>
 
 
@@ -403,7 +403,7 @@ Details
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>
-         <Card.Title className=''>Business Model canvas and Value Proposition cavas</Card.Title>
+         <Card.Title className=''>Business Model canvas and Value Proposition canvas</Card.Title>
 
           </div>
          </Card.ImgOverlay>

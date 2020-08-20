@@ -19,7 +19,7 @@ class Chart extends Component {
       labels: ["C", "C++", "Java", "Python", "Ansible",'Jenkins', "Shell Scripting", "Market Research","Product Management"],
       datasets: [
         {
-          data: [0,2,3,4,3,2,2,1,2],
+          data: [4,2,2,3,2,2,2,1,0],
           backgroundColor: [
             "rgba(255, 99, 132, 0.6)",
             "rgba(54, 162, 235, 0.6)",
@@ -64,7 +64,9 @@ class Chart extends Component {
                 } else if (label === 2) {
                   return "Intermediate " ;
                 } else if (label === 1) {
-                  return "Beginner " ;
+                  return "Beginner" ;
+                } else {
+                  return 'start';
                 }
                 //                         return '$' + label;
               }
