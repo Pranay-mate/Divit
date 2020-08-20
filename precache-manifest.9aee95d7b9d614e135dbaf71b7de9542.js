@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "955e944e38de4cde89662b9f1bdbb121",
+    "revision": "30fb84b10098fe6c5e69d89c556e3bd7",
     "url": "/Divit/index.html"
   },
   {
-    "revision": "fe548d277f99dcfcf6be",
+    "revision": "3cc0a128bd641dc0785f",
     "url": "/Divit/static/css/2.cb0d2324.chunk.css"
   },
   {
-    "revision": "b0bad21016c83d16f11b",
-    "url": "/Divit/static/css/main.d4bcfc40.chunk.css"
+    "revision": "fc0ce72da4ce0cf52618",
+    "url": "/Divit/static/css/main.a67652f1.chunk.css"
   },
   {
-    "revision": "fe548d277f99dcfcf6be",
-    "url": "/Divit/static/js/2.c14234aa.chunk.js"
+    "revision": "3cc0a128bd641dc0785f",
+    "url": "/Divit/static/js/2.c020d84d.chunk.js"
   },
   {
     "revision": "3d4326b5dc516f26a560527011b46fd1",
-    "url": "/Divit/static/js/2.c14234aa.chunk.js.LICENSE.txt"
+    "url": "/Divit/static/js/2.c020d84d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0bad21016c83d16f11b",
-    "url": "/Divit/static/js/main.45412706.chunk.js"
+    "revision": "fc0ce72da4ce0cf52618",
+    "url": "/Divit/static/js/main.fcedba11.chunk.js"
   },
   {
     "revision": "7e510d59304ff4fab732",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Divit/static/media/Lyft.286bb3fe.jpg"
   },
   {
-    "revision": "2ec98185a26ad31e02f44b1362ef46c4",
-    "url": "/Divit/static/media/MeruVsOla.2ec98185.PNG"
+    "revision": "656d39f04145de405504983e30ca9fc2",
+    "url": "/Divit/static/media/MeruVsOla2.656d39f0.jpg"
   },
   {
     "revision": "97a1b7c803ab167626662b97c37c1c4b",
@@ -88,12 +88,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Divit/static/media/headout.b189df81.png"
   },
   {
+    "revision": "cc6833b2c366ff92defdcd2839acd142",
+    "url": "/Divit/static/media/linkedin_b.cc6833b2.png"
+  },
+  {
     "revision": "51a6ca23025eb5d58b269ffcef6b4654",
     "url": "/Divit/static/media/macaques.51a6ca23.png"
   },
   {
     "revision": "151df821dfd164ba36fe8eeec211cb84",
     "url": "/Divit/static/media/medium.151df821.png"
+  },
+  {
+    "revision": "0927581e090202c04ec490d9e9d68277",
+    "url": "/Divit/static/media/medium_b.0927581e.png"
   },
   {
     "revision": "1fd8e06c5935a25345825c6fed38b03f",
