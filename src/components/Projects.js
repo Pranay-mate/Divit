@@ -19,7 +19,7 @@ import Dance from '../images/dance.jpeg';
 import Dance1 from '../images/dance1.jpg';
 
 import EToilet from '../images/e-toilet-in-india.jpg';
-import MeruVsOla from '../images/MeruVsOla.PNG';
+import MeruVsOla from '../images/MeruVsOla2.jpg';
 import Onlinefurniture from '../images/Onlinefurniture.png';
 import Flatmate from '../images/Flatmate.png';
 import Redbus from '../images/redbus.png';
@@ -113,7 +113,11 @@ function Projects () {
   const handleChangeIndex = (index) => {
     setValue(index);
   };
+  const style ={
+    color: '#007bff',
+    visibility: 'visible',
 
+  }
 return (
   <div className='Projects'>
  <div className={classes.root}>
@@ -159,7 +163,7 @@ return (
 
 
        <Card className=''>
-         <Card.Img variant="top" className='im' src={EToilet} alt='loading..' />
+         <Card.Img onClick={style} variant="top" className='im' src={EToilet} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>

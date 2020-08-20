@@ -5,6 +5,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import medium from '../images/medium_b.png';
+import linkedin from '../images/linkedin_b.png';
+import gmail from '../images/gmail.png';
+
 import Typist from 'react-typist';
 
 import '../css/ContactInfo.css';
@@ -15,19 +19,17 @@ function ContactInfo() {
 
   <Container>
   <Row className="" >
-  <Col xs={12}   className="">
-  <h1>Contact Info</h1>
+  <Col xs={12} lg={3}  className="text-left">
+  <h1>Divit Karmiani</h1>
   </Col>
-    <Col xs={6}  className="icon  text-center">
-          <a className='ml-1' href="https://www.linkedin.com/in/divitkarmiani/"><img src="https://img.icons8.com/ios/40/ffffff/linkedin.png" alt='loading..' /></a>
-          <a className='ml-1' href="mailto:divitkarmiani1998@gmail.com"><img src="https://img.icons8.com/ios/47/ffffff/gmail.png" alt='loading..' /></a>
-          <a className='ml-1' href="https://medium.com/@divitkarmiani1998"><img src="https://img.icons8.com/ios/40/ffffff/medium-monogram.png" alt='loading..' /></a>
+    <Col xs={12} lg={6}  className="text-center">
+    <a href="https://www.linkedin.com/in/divitkarmiani/"><img src={linkedin}  className='icon-foot mx-1 rounded-circle'   alt='loading..' /></a>
+    <a href="mailto:divitkarmiani1998@gmail.com"><img src={gmail}  className='icon-footer mx-1 rounded-circle '  alt='loading..' /></a>
+    <a href="https://medium.com/@divitkarmiani1998"><img src={medium}  className='icon-footer mx-1 rounded-circle'  alt='loading..' /></a>
 
     </Col>
-    <Col xs={6}   className="call  text-center">
-    <img src="https://img.icons8.com/android/25/ffffff/phone-disconnected.png" alt='loading..' />
-    <span style={{color: 'white'}}>Phone:</span>
-    <h6 style={{color: 'white'}}>+91-9892302788</h6>
+    <Col xs={12} lg={3}   className="call  text-center">
+
     </Col>
 
 

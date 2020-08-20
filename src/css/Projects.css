@@ -26,6 +26,7 @@
   opacity: 0.1;
   border-radius:  7px 7px 0px 0px;
 }
+
 .card-title{
   visibility: hidden;
 
@@ -37,13 +38,17 @@ visibility: visible;
 text-transform: uppercase;
 letter-spacing: 0.5px;
 }
+.card:visited .card-title{
+
+}
+
 .card-body {
 font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 600px) {
   .card-body {
       font-size: 12px;
-      font-weight: 600;
+      font-weight: 500;
 
   }
 
@@ -76,8 +81,6 @@ font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 600px) {
   .musicCard{
-    font-size: 12px;
-    font-weight: 450;
     height: 18.7em;
   }
 

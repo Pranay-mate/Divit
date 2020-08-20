@@ -13,7 +13,7 @@ class Chart extends Component {
   static defaultProps = {
     displayTitle: true,
     DisplayLegend: true,
-    LegendPosition: "right",
+    LegendPosition: "top",
     level: "Skills",
     data: {
       labels: ["C", "C++", "Java", "Python", "Ansible",'Jenkins', "Shell Scripting", "Market Research","Product Management"],

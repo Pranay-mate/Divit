@@ -19,6 +19,7 @@ import Typist from 'react-typist';
 import '../css/AboutMe.css';
 
 function AboutMe() {
+
   return (
     <div className="AboutMe container-fluid ">
   <Container fluid>

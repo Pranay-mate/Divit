@@ -1,6 +1,6 @@
 .ContactInfo{
   background-color: black;
-  padding: 1.5em;
+  padding: 2em 0em;
 }
 .ContactInfo h1{
   font-size: bold;
@@ -16,6 +16,39 @@
 .call .span{
   font-size: 1em;
 }
-.icon{
-  margin: auto;
+
+.icon-foot:hover, .icon-footer:hover {
+  transform: scale(1.2);
+}
+@media screen and (max-width: 600px) {
+  .ContactInfo h1{
+    text-align: center;
+    padding: 1em 0em;
+  }
+  .icon-foot{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    transition: transform .2s;
+  }
+  .icon-footer{
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    transition: transform .2s;
+  }
+}
+@media screen and (min-width: 601px) {
+  .icon-foot{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+  transition: transform .2s;
+  }
+  .icon-footer{
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    transition: transform .2s;
+  }
 }
