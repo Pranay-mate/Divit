@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Bar, Line, Pie, HorizontalBar } from "react-chartjs-2";
-import VerticalChart from './Vertical.js'
 
-class Chart extends Component {
+class VerticalChart extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -47,16 +46,16 @@ class Chart extends Component {
            display: false,
        },
       scales: {
-        xAxes: [
+        yAxes: [
           {
             ticks: {
-              fontSize: 9,
-              fontWeight:100,
+              fontSize: 15,
+              fontWeight:50,
               font: {
               family: "Candara"
               },
               fontColor: '#000',
-             fontStyle: '300',
+             fontStyle: '500',
               maxTicksLimit: 5,
               barThickness: 20,
                maxBarThickness: 20,
@@ -77,11 +76,11 @@ class Chart extends Component {
               }
             }
           }
-        ],yAxes: [
+        ],xAxes: [
           {
             ticks: {
-              fontSize: 7.6,
-              fontWeight:50,
+              fontSize: 12,
+              fontWeight:40,
               font: {
               family: "Candara"
               },
@@ -106,18 +105,13 @@ class Chart extends Component {
   };
   render() {
     return (
-      <div className='bars'>
       <div className='d-none d-lg-block'>
-        <VerticalChart />
-      </div>
-      <div className='d-lg-none'>
 
-      <HorizontalBar height='270px' data={this.state.chartData} options={this.state.chartOptions}/>
-      </div>
+      <Bar data={this.state.chartData} options={this.state.chartOptions}  />
       </div>
 
     );
   }
 }
 
-export default Chart;
+export default VerticalChart;

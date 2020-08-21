@@ -76,7 +76,7 @@ class Skills extends React.Component {
            <Col xs={12}  sm={7} className=''>
            <div className='Skills'>
             <h1 className='text-center'>Skills</h1>
-          <Chart chartData={this.state.chartData} redraw={true} lavel="HTML" LegendPosition="bottom" />
+          <Chart chartData={this.state.chartData}  lavel="HTML" LegendPosition="bottom" />
 </div>
            </Col>
 
