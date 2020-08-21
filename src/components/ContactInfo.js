@@ -20,7 +20,6 @@ function ContactInfo() {
   <Container>
   <Row className="" >
   <Col xs={12} lg={3}  className="text-left">
-  <h1>Divit Karmiani</h1>
   </Col>
     <Col xs={12} lg={6}  className="text-center">
     <a href="https://www.linkedin.com/in/divitkarmiani/"><img src={linkedin}  className='icon-foot mx-1 rounded-circle'   alt='loading..' /></a>
@@ -29,7 +28,7 @@ function ContactInfo() {
 
     </Col>
     <Col xs={12} lg={3}   className="call  text-center">
-
+    <h1>Divit Karmiani</h1>
     </Col>
 
 

@@ -50,28 +50,8 @@ class Navba extends Component {
   <Collapse isOpen={this.state.isNavOpen} navbar>
       <Nav navbar className='ml-auto nav '>
 
-      <NavItem>
-      <Link
-      className="nav-item nav-link"
-        to="AboutMe"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-      ><p>About Me</p></Link>
-      </NavItem>
+      
 
-      <NavItem>
-      <Link
-      className="nav-item nav-link"
-        activeClass="active"
-        to="Experience"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-      ><p>Experience</p></Link>
-      </NavItem>
 
       <NavItem>
       <Link
@@ -82,7 +62,18 @@ class Navba extends Component {
         smooth={true}
         offset={-60}
         duration={500}
-      ><p>Skills</p></Link>
+      ><p>About Me</p></Link>
+      </NavItem>
+      <NavItem>
+      <Link
+      className="nav-item nav-link"
+        activeClass="active"
+        to="Experience"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      ><p>Experience</p></Link>
       </NavItem>
 
       <NavItem>

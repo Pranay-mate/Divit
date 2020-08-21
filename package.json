@@ -13,6 +13,7 @@
     "apexcharts": "^3.20.0",
     "bootstrap": "^4.5.2",
     "chart.js": "^2.9.3",
+    "chartjs-plugin-deferred": "^1.0.1",
     "colorette": "^1.2.1",
     "node-sass": "^4.14.1",
     "nvm": "0.0.4",

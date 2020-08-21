@@ -27,9 +27,9 @@ class Chart extends Component {
             "rgba(153, 102, 235, 0.6)",
             "rgba(255, 159, 132, 0.6)",
             "rgba(255, 99, 132, 0.6)",
-            "rgba(153, 102, 235, 0.6)",
-            "rgba(255, 159, 132, 0.6)",
-            "rgba(255, 99, 132, 0.6)"
+            "rgba(100, 30, 55, 0.6)",
+            "rgba(255, 159, 32, 0.6)",
+            "rgba(255, 99, 92, 0.6)"
           ],
               label: false
         }
@@ -42,13 +42,7 @@ class Chart extends Component {
     },
 
     options: {
-      plugins: {
-      deferred: {
-        xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
-        yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
-        delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
-      }
-    },
+
       legend: {
            display: false,
        },
@@ -60,9 +54,9 @@ class Chart extends Component {
               callback: function(label, index, labels) {
                 console.log("label is: " );
                 if (label === 4) {
-                  return "Expert " ;
+                  return "Expert" ;
                 } else if (label === 3) {
-                  return "Advanced ";
+                  return "Advanced";
                 } else if (label === 2) {
                   return "Intermediate " ;
                 } else if (label === 1) {
@@ -75,7 +69,33 @@ class Chart extends Component {
             }
           }
         ]
-      }
+      },tooltips: {
+            callbacks: {
+                label: function(tooltipItem, data) {
+                    var label = data.datasets[tooltipItem.datasetIndex].label || '';
+                    if (label) {
+                        label += ': ';
+                    }
+
+                    return 'Skill';
+                }
+            }
+        },
+    animation: {
+              tension: {
+                  duration: 10000,
+                  from: 100,
+                  to: 0,
+                  loop: true
+              },plugins: {
+              deferred: {
+                xOffset: 150,   // defer until 150px of the canvas width are inside the viewport
+                yOffset: '50%', // defer until 50% of the canvas height are inside the viewport
+                delay: 500      // delay of 500 ms after the canvas is considered inside the viewport
+              }
+            },
+          },
+
     }
   };
   render() {

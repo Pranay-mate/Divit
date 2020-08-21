@@ -104,7 +104,7 @@ function Projects () {
 
   const classes = useStyles();
   const theme = useTheme();
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(1);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -120,6 +120,7 @@ function Projects () {
   }
 return (
   <div className='Projects'>
+  <h1 className='text-center'>Projects</h1>
  <div className={classes.root}>
    <Paper  className='bar'>
      <Tabs
@@ -144,12 +145,12 @@ return (
       indicatorColor="primary"
       textColor="primary"
       variant="fullWidth"
-          aria-label="full width tabs example"
+      aria-label="full width tabs example"
       centered
 
      >
        <Tab label="Engineering Final year project" {...a11yProps(0)} />
-       <Tab label="Product Management Coursework" {...a11yProps(1)} />
+       <Tab  label="Product Management Coursework" {...a11yProps(1)} />
        <Tab label="Product Design and Research Coursework" {...a11yProps(2)} />
      </Tabs>
    </Paper>
