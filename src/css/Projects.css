@@ -141,9 +141,18 @@ font-family: 'Roboto', sans-serif;
   color: red!important;
   background-color: red!important;
 }
+@media screen and (max-width: 600px) {
+  .MuiTab-root {
+    padding: 0px 2px!important;
+       margin: 0px 0px!important;
+       font-size: 0.5rem!important;
+       font-weight: 500!important;
+        width: 15em!important;
+  }
+}
 .MuiTab-root {
-  padding: 1px 5px!important;
-     margin: 0px 10px!important;
+  padding: 1px 5px;
+     margin: 0px 10px;
     position: relative;
     font-size: 0.75rem!important;
      box-sizing:content-box!important;
