@@ -27,7 +27,7 @@ function ContactInfo() {
     <a href="https://medium.com/@divitkarmiani1998"><img src={medium}  className='icon-footer mx-1 rounded-circle'  alt='loading..' /></a>
 
     </Col>
-    <Col xs={12} lg={3}   className="call  text-center">
+    <Col xs={12} lg={3}   className=" text-center">
     <h1>Divit Karmiani</h1>
     </Col>
 

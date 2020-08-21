@@ -48,15 +48,14 @@ class Skills extends React.Component {
          <Row>
 
             <Col xs={12}  sm={5} className='about'>
-            <div className=''>
             <div id="text-main">
 
-            <Container fluid style={{padding:'0px'}}>
-                <Row>
+            <Container  style={{padding:'0px', margin:'0px'}}>
+                <Row style={{padding:'0px', margin:'0px'}}>
                    <Col xs={4}  className='macaqueImg'>
                    <Image className='macaque img-fluid' src={macaque}  alt='loading..' />
                        </Col>
-                  <Col xs={8}  className='text-left'>
+                  <Col xs={8}  className='text-left' style={{padding:'0px', margin:'0px'}}>
                   <h1>  What my Spirit animal says about me</h1>
 
 
@@ -70,7 +69,6 @@ class Skills extends React.Component {
           <p>    #Want to live upto my name’s meaning. “Divit” stands for Immortal.</p>
           <p>  #Lovetotravel #Foodie #Learningtocook #WanttobeIndependent</p>
 
-          </div>
             					</div>
 
             </div>

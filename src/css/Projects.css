@@ -91,7 +91,6 @@ font-family: 'Roboto', sans-serif;
 @media screen and (min-width: 601px) {
   .musicCard{
     height: 23.5em;
-
   }
 }
 
@@ -105,10 +104,10 @@ font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 600px) {
   .CardDeck-lg{
-    padding: 0.1em 1em;
+    padding: 0.2em 1em;
   }
   .CardDeck-big2{
-    padding: 0.1em 1em;
+    padding: 0.2em 1em;
 
   }
 }
@@ -119,12 +118,11 @@ font-family: 'Roboto', sans-serif;
 }
 @media screen and (min-width: 601px) {
   .CardDeck-big{
-    padding: 1em 28em;
-
+    padding: 1em 5em;
 
   }
   .CardDeck-big2{
-    padding: 1em 53.8em 1em 5em;
+    padding: 1em 5em;
 
   }
   .musicCard{

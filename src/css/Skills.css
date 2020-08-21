@@ -9,7 +9,6 @@ font-family: 'Bangers', cursive;
 }
 @media screen and (max-width: 600px) {
   #text-main h1{
-  font-size: 1.7em!important;
   padding-top:  1em ;
 
   }
