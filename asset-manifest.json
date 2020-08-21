@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.19d94c07.chunk.css",
+    "main.css": "/Divit/static/css/main.50b47f0d.chunk.css",
     "main.js": "/Divit/static/js/main.56994bfa.chunk.js",
     "main.js.map": "/Divit/static/js/main.56994bfa.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
@@ -9,10 +9,10 @@
     "static/js/2.b1e37314.chunk.js": "/Divit/static/js/2.b1e37314.chunk.js",
     "static/js/2.b1e37314.chunk.js.map": "/Divit/static/js/2.b1e37314.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.d7de2b4690f4579139c5ad3b9f0b78b8.js": "/Divit/precache-manifest.d7de2b4690f4579139c5ad3b9f0b78b8.js",
+    "precache-manifest.bba45a700d0f4f5c8a850ef23c0e088d.js": "/Divit/precache-manifest.bba45a700d0f4f5c8a850ef23c0e088d.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.19d94c07.chunk.css.map": "/Divit/static/css/main.19d94c07.chunk.css.map",
+    "static/css/main.50b47f0d.chunk.css.map": "/Divit/static/css/main.50b47f0d.chunk.css.map",
     "static/js/2.b1e37314.chunk.js.LICENSE.txt": "/Divit/static/js/2.b1e37314.chunk.js.LICENSE.txt",
     "static/media/DoToday.jpg": "/Divit/static/media/DoToday.eb1866e3.jpg",
     "static/media/Flatmate.png": "/Divit/static/media/Flatmate.55b33524.png",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
     "static/js/2.b1e37314.chunk.js",
-    "static/css/main.19d94c07.chunk.css",
+    "static/css/main.50b47f0d.chunk.css",
     "static/js/main.56994bfa.chunk.js"
   ]
 }
