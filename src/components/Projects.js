@@ -118,6 +118,11 @@ function Projects () {
     visibility: 'visible',
 
   }
+  const [isActive, setActive] = useState(false);
+
+const toggleClass = () => {
+  setActive(!isActive);
+};
 return (
   <div className='Projects'>
   <h1 className='text-center'>Projects</h1>
@@ -198,7 +203,8 @@ return (
 
 
        <Card>
-         <Card.Img variant="top" className='im' src={MeruVsOla} alt='loading..' />
+         <Card.Img className={isActive ? 'asd': null}
+      onClick={toggleClass} variant="top"  src={MeruVsOla} alt='loading..' />
 
          <Card.ImgOverlay >
          <div className='card-ImgOverlay'>

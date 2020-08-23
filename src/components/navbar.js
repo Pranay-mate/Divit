@@ -50,7 +50,7 @@ class Navba extends Component {
   <Collapse isOpen={this.state.isNavOpen} navbar>
       <Nav navbar className='ml-auto nav '>
 
-      
+
 
 
       <NavItem>
@@ -88,17 +88,7 @@ class Navba extends Component {
       ><p>Projects</p></Link>
       </NavItem>
 
-      <NavItem>
-      <Link
-      className="nav-item nav-link"
-        activeClass="active"
-        to="Interests"
-        spy={true}
-        smooth={true}
-        offset={-65}
-        duration={500}
-      ><p>Interests</p></Link>
-      </NavItem>
+
       <NavItem>
       <Link
       className="nav-item nav-link"

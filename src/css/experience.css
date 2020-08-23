@@ -1,6 +1,6 @@
 .Experience{
     background-color: white;
-    
+
 }
 .timeline--wrapper {
   padding: 0px 10px;
@@ -22,11 +22,12 @@
   padding-top: 7px;
 }
 .Experience h1{
-  padding: 0em;
+  padding-top: 0.5em;
   margin: 0px;
   font-size: bold;
   color: black;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Special Elite', cursive;
+
 }
 .Experience h3{
   font-family: 'Bree Serif', serif;

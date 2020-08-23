@@ -3,7 +3,7 @@
 }
 .Projects h1{
     font-size: bold;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Special Elite', cursive;
 }
 @media screen and (min-width: 601px) {
   .bar{
@@ -11,22 +11,27 @@
   }
 }
 
-.im{
+.card-img-top{
   transition: .5s ease;
   opacity: 1;
 
 }
 @media screen and (max-width: 600px) {
-  .im{
+  .card-img-top{
     height: 250px;
   }
 }
 @media screen and (min-width: 601px) {
-  .im{
+  .card-img-top{
     height: 320px;
   }
 }
-.card:hover .im{
+.asd{
+  color: red!important;
+  background-color: red!important;
+  font-size: 1.5em!important;
+}
+.card:hover .card-img-top{
   opacity: 0.1;
   border-radius:  7px 7px 0px 0px;
 }
@@ -42,9 +47,7 @@ visibility: visible;
 text-transform: uppercase;
 letter-spacing: 0.5px;
 }
-.card:visited .card-title{
 
-}
 
 .card-body {
 font-family: 'Roboto', sans-serif;

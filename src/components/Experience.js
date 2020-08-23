@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Evangelist from '../images/evanglist.png';
+import DevOps from '../images/devOps.png';
 
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -27,7 +29,7 @@ function Experience() {
       }}
     >
       <h3 style={{ color: '#61b8ff' }}>Amadeus Software Labs</h3>
-      <h4 style={{ color: '#61b8ff' }}>DevOps Engineer</h4>
+      <h4 style={{ color: '#61b8ff' }}><img src={DevOps}  className='mx-1 rounded-circle' width='45px' height='25px'  alt='loading..' />DevOps Engineer</h4>
       <p>
       - Responsible for automating manual tasks and processes
       </p>
@@ -50,7 +52,7 @@ function Experience() {
       }}
     >
       <h3 style={{ color: '#e86971' }}>upGrad</h3>
-      <h4 style={{ color: '#e86971'}}>Evangelist</h4>
+      <h4 style={{ color: '#e86971'}}><img src="https://img.icons8.com/bubbles/50/000000/man-in-green-tie.png"/>Evangelist</h4>
       <p>
       - Counseling leads
       </p>
@@ -70,7 +72,7 @@ function Experience() {
       }}
     >
       <h3 style={{ color: '#61b8ff' }}>Neebal Technologies</h3>
-      <h4 style={{ color: '#61b8ff' }}>Teacher</h4>
+      <h4 style={{ color: '#61b8ff' }}><img src="https://img.icons8.com/color/48/000000/teacher.png"/>Teacher</h4>
       <p>
       - Teaching programming languages like C, C++ and Java
       </p>
@@ -88,7 +90,7 @@ function Experience() {
       }}
     >
       <h3 style={{ color: '#e86971' }}>Sardar Patel Institute of Technology</h3>
-      <h4 style={{ color: '#e86971' }}>Teaching Assistant</h4>
+      <h4 style={{ color: '#e86971' }}><img src="https://img.icons8.com/color/48/000000/class.png"/>Teaching Assistant</h4>
       <p>
       - Teaching Assistant, Mathematics Professor
       </p>
