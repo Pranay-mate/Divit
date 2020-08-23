@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca6e812404f7955a22af661efcf9bc50",
+    "revision": "d092c06d81eb38a275d24e32dd8f90fe",
     "url": "/Divit/index.html"
   },
   {
-    "revision": "b6d07c824d1cc06f40ac",
+    "revision": "9a850e37715773fa099d",
     "url": "/Divit/static/css/2.cb0d2324.chunk.css"
   },
   {
-    "revision": "40bb9d94255a0b460fa0",
-    "url": "/Divit/static/css/main.5ff71cdd.chunk.css"
+    "revision": "402f4a36f8f92868b79c",
+    "url": "/Divit/static/css/main.d950a1f5.chunk.css"
   },
   {
-    "revision": "b6d07c824d1cc06f40ac",
-    "url": "/Divit/static/js/2.b1e37314.chunk.js"
+    "revision": "9a850e37715773fa099d",
+    "url": "/Divit/static/js/2.a6c6d17e.chunk.js"
   },
   {
     "revision": "3d4326b5dc516f26a560527011b46fd1",
-    "url": "/Divit/static/js/2.b1e37314.chunk.js.LICENSE.txt"
+    "url": "/Divit/static/js/2.a6c6d17e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40bb9d94255a0b460fa0",
-    "url": "/Divit/static/js/main.56994bfa.chunk.js"
+    "revision": "402f4a36f8f92868b79c",
+    "url": "/Divit/static/js/main.95410e68.chunk.js"
   },
   {
     "revision": "7e510d59304ff4fab732",
@@ -72,6 +72,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Divit/static/media/dance1.eaa7a38f.jpg"
   },
   {
+    "revision": "83260087c309cbce9bd7d12a3fc7e92a",
+    "url": "/Divit/static/media/devOps.83260087.png"
+  },
+  {
     "revision": "e59ae6889a3605acfdc4f7e4db2f3866",
     "url": "/Divit/static/media/e-toilet-in-india.e59ae688.jpg"
   },
@@ -90,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cc6833b2c366ff92defdcd2839acd142",
     "url": "/Divit/static/media/linkedin_b.cc6833b2.png"
+  },
+  {
+    "revision": "438ee3d35483001a3baf355bfff352b1",
+    "url": "/Divit/static/media/logo1.438ee3d3.jpg"
   },
   {
     "revision": "51a6ca23025eb5d58b269ffcef6b4654",
