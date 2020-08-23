@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import medium from '../images/medium_b.png';
 import linkedin from '../images/linkedin_b.png';
 import gmail from '../images/gmail.png';
-import logo from '../images/logo1.jpg';
+import logo from '../images/logo1.png';
 
 import Typist from 'react-typist';
 
