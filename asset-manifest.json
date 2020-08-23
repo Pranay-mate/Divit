@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.d950a1f5.chunk.css",
-    "main.js": "/Divit/static/js/main.95410e68.chunk.js",
-    "main.js.map": "/Divit/static/js/main.95410e68.chunk.js.map",
+    "main.css": "/Divit/static/css/main.bc215a32.chunk.css",
+    "main.js": "/Divit/static/js/main.3906c9de.chunk.js",
+    "main.js.map": "/Divit/static/js/main.3906c9de.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.cb0d2324.chunk.css": "/Divit/static/css/2.cb0d2324.chunk.css",
     "static/js/2.a6c6d17e.chunk.js": "/Divit/static/js/2.a6c6d17e.chunk.js",
     "static/js/2.a6c6d17e.chunk.js.map": "/Divit/static/js/2.a6c6d17e.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.c1e46b98689ada7d75eb7fbc1a329c9a.js": "/Divit/precache-manifest.c1e46b98689ada7d75eb7fbc1a329c9a.js",
+    "precache-manifest.4b71cc5261fe8b9a5d8907326db58349.js": "/Divit/precache-manifest.4b71cc5261fe8b9a5d8907326db58349.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.d950a1f5.chunk.css.map": "/Divit/static/css/main.d950a1f5.chunk.css.map",
+    "static/css/main.bc215a32.chunk.css.map": "/Divit/static/css/main.bc215a32.chunk.css.map",
     "static/js/2.a6c6d17e.chunk.js.LICENSE.txt": "/Divit/static/js/2.a6c6d17e.chunk.js.LICENSE.txt",
     "static/media/DoToday.jpg": "/Divit/static/media/DoToday.eb1866e3.jpg",
     "static/media/Flatmate.png": "/Divit/static/media/Flatmate.55b33524.png",
@@ -31,7 +31,7 @@
     "static/media/gmail.png": "/Divit/static/media/gmail.b5a365d3.png",
     "static/media/headout.png": "/Divit/static/media/headout.b189df81.png",
     "static/media/linkedin_b.png": "/Divit/static/media/linkedin_b.cc6833b2.png",
-    "static/media/logo1.jpg": "/Divit/static/media/logo1.438ee3d3.jpg",
+    "static/media/logo1.png": "/Divit/static/media/logo1.448c8a59.png",
     "static/media/macaques.png": "/Divit/static/media/macaques.51a6ca23.png",
     "static/media/medium.png": "/Divit/static/media/medium.151df821.png",
     "static/media/medium_b.png": "/Divit/static/media/medium_b.0927581e.png",
@@ -49,7 +49,7 @@
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
     "static/js/2.a6c6d17e.chunk.js",
-    "static/css/main.d950a1f5.chunk.css",
-    "static/js/main.95410e68.chunk.js"
+    "static/css/main.bc215a32.chunk.css",
+    "static/js/main.3906c9de.chunk.js"
   ]
 }
