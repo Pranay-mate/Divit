@@ -109,7 +109,7 @@ class VerticalChart extends Component {
     return (
       <div className='d-none d-lg-block'>
 
-      <Bar height='170px' data={this.state.chartData} options={this.state.chartOptions}  />
+      <Bar height='140px' data={this.state.chartData} options={this.state.chartOptions}  />
       </div>
 
     );
