@@ -1,5 +1,6 @@
 import React from 'react';
 import gifgit from '../images/gifgit.png';
+import mine from '../images/mine.jpg';
 import medium from '../images/medium.png';
 import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
@@ -18,7 +19,7 @@ function AboutMe() {
   <Container fluid>
       <Row>
          <Col xs={12} sm={5} className=' text-center'>
-          <Image className='mine img-fluid' src={gifgit} roundedCircle  alt='loading..' />
+          <Image className='mine img-fluid' src={mine} roundedCircle  alt='loading..' />
         </Col>
         <Col xs={12}  sm={7} className=''>
         <div className='AboutText'>

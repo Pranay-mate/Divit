@@ -24,7 +24,7 @@ function ContactInfo() {
   <Row className="" >
   <Col xs={12} lg={12}  className="text-center">
   <h2>Let's connect</h2>
-  <p className='d-none d-lg-block'>If you need a friend or a partner in crime, my inbox is always open.</p>
+  <p className='d-none d-lg-block'>If you need to talk about a web series on Netflix or talk random philosophy, my inbox is always open</p>
 
   </Col>
   </Row>
