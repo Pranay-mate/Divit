@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ff06af4ddc85a41de24312442fde89a",
+    "revision": "6aa53cd5492b767c9e383963cadfefbf",
     "url": "/Divit/index.html"
   },
   {
-    "revision": "9a850e37715773fa099d",
+    "revision": "8de7733bfb19cbd9dd9c",
     "url": "/Divit/static/css/2.cb0d2324.chunk.css"
   },
   {
-    "revision": "10c4ebf2a66844774f26",
-    "url": "/Divit/static/css/main.bc215a32.chunk.css"
+    "revision": "fc56f20b59094ea05617",
+    "url": "/Divit/static/css/main.4d580dcd.chunk.css"
   },
   {
-    "revision": "9a850e37715773fa099d",
-    "url": "/Divit/static/js/2.a6c6d17e.chunk.js"
+    "revision": "8de7733bfb19cbd9dd9c",
+    "url": "/Divit/static/js/2.1ed69912.chunk.js"
   },
   {
-    "revision": "3d4326b5dc516f26a560527011b46fd1",
-    "url": "/Divit/static/js/2.a6c6d17e.chunk.js.LICENSE.txt"
+    "revision": "176852ae27885dfd7559e0fb4b332d24",
+    "url": "/Divit/static/js/2.1ed69912.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "10c4ebf2a66844774f26",
-    "url": "/Divit/static/js/main.3906c9de.chunk.js"
+    "revision": "fc56f20b59094ea05617",
+    "url": "/Divit/static/js/main.94231496.chunk.js"
   },
   {
     "revision": "7e510d59304ff4fab732",
@@ -44,32 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Divit/static/media/MeruVsOla2.656d39f0.jpg"
   },
   {
-    "revision": "97a1b7c803ab167626662b97c37c1c4b",
-    "url": "/Divit/static/media/Netflix.97a1b7c8.jpeg"
-  },
-  {
     "revision": "980d8077a75283610db438555730803c",
     "url": "/Divit/static/media/Onlinefurniture.980d8077.png"
   },
   {
     "revision": "f8ca9a4d10637bfc209b3defa9ff7d05",
     "url": "/Divit/static/media/Zomato.f8ca9a4d.jpeg"
-  },
-  {
-    "revision": "d5fd6afdfe6ff11db50630549c96c60e",
-    "url": "/Divit/static/media/badminton.d5fd6afd.jpeg"
-  },
-  {
-    "revision": "3cafd7928f1e301c80ce58409be1302f",
-    "url": "/Divit/static/media/badminton1.3cafd792.jpg"
-  },
-  {
-    "revision": "5e3a2e8b1333d929b693dd55b4ec0300",
-    "url": "/Divit/static/media/dance.5e3a2e8b.jpeg"
-  },
-  {
-    "revision": "eaa7a38f23fb79f60299331bc4b3bed9",
-    "url": "/Divit/static/media/dance1.eaa7a38f.jpg"
   },
   {
     "revision": "83260087c309cbce9bd7d12a3fc7e92a",
@@ -110,26 +90,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0927581e090202c04ec490d9e9d68277",
     "url": "/Divit/static/media/medium_b.0927581e.png"
-  },
-  {
-    "revision": "1fd8e06c5935a25345825c6fed38b03f",
-    "url": "/Divit/static/media/mine.1fd8e06c.jpg"
-  },
-  {
-    "revision": "6f55474feb5d4370dfaf173ab518d1a3",
-    "url": "/Divit/static/media/mine2.6f55474f.png"
-  },
-  {
-    "revision": "810db633a568139ea0f826141d7dcd6e",
-    "url": "/Divit/static/media/mine3.810db633.png"
-  },
-  {
-    "revision": "cd8dea6b6fbc26469840d177ed9f1594",
-    "url": "/Divit/static/media/mineg.cd8dea6b.jpg"
-  },
-  {
-    "revision": "ad8f0e8ed47a5cadc608f5086c6878f5",
-    "url": "/Divit/static/media/minew.ad8f0e8e.jpg"
   },
   {
     "revision": "73094f7c089171bd90e74c89cc6d36ab",
