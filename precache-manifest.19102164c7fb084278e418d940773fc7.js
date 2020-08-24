@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfb1c3817be2d43447270fd1edc33545",
+    "revision": "334bdebd75a066324cb8f359a4dcfe21",
     "url": "/Divit/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Divit/static/css/2.cb0d2324.chunk.css"
   },
   {
-    "revision": "000c156614a870e0b43e",
-    "url": "/Divit/static/css/main.56ff8e07.chunk.css"
+    "revision": "9caa3c2902e075c40178",
+    "url": "/Divit/static/css/main.a0d3f38c.chunk.css"
   },
   {
     "revision": "f2da211009b9a6c6942f",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Divit/static/js/2.dcbd3a2b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "000c156614a870e0b43e",
+    "revision": "9caa3c2902e075c40178",
     "url": "/Divit/static/js/main.0f8db816.chunk.js"
   },
   {
