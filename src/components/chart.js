@@ -89,6 +89,8 @@ class Chart extends Component {
              fontStyle: '550'
             }}],
       },tooltips: {
+        enabled: false,
+
             callbacks: {
                 label: function(tooltipItem, data) {
                     var label = data.datasets[tooltipItem.datasetIndex].label || '';

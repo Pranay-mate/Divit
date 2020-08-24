@@ -23,7 +23,7 @@ function ContactInfo() {
   <Container>
   <Row className="" >
   <Col xs={12} lg={12}  className="text-center">
-  <h2>Let's be friends</h2>
+  <h2>Let's connect</h2>
   <p className='d-none d-lg-block'>If you need a friend or a partner in crime, my inbox is always open.</p>
 
   </Col>

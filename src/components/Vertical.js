@@ -88,14 +88,16 @@ class VerticalChart extends Component {
              fontStyle: '550'
             }}],
       },tooltips: {
+        enabled: false,
+
             callbacks: {
+
                 label: function(tooltipItem, data) {
                     var label = data.datasets[tooltipItem.datasetIndex].label || '';
                     if (label) {
                         label += ': ';
                     }
-
-                    return 'Skill';
+                  return 'Skills';
                 }
             }
         },
