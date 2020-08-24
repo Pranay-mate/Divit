@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Divit/static/css/main.4d580dcd.chunk.css",
-    "main.js": "/Divit/static/js/main.94231496.chunk.js",
-    "main.js.map": "/Divit/static/js/main.94231496.chunk.js.map",
+    "main.js": "/Divit/static/js/main.579f58d8.chunk.js",
+    "main.js.map": "/Divit/static/js/main.579f58d8.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.cb0d2324.chunk.css": "/Divit/static/css/2.cb0d2324.chunk.css",
     "static/js/2.1ed69912.chunk.js": "/Divit/static/js/2.1ed69912.chunk.js",
     "static/js/2.1ed69912.chunk.js.map": "/Divit/static/js/2.1ed69912.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.0150f8dfefcebd66575da6a3a296fca2.js": "/Divit/precache-manifest.0150f8dfefcebd66575da6a3a296fca2.js",
+    "precache-manifest.6cdfa928858cd8675165574d4c23f51e.js": "/Divit/precache-manifest.6cdfa928858cd8675165574d4c23f51e.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
     "static/css/main.4d580dcd.chunk.css.map": "/Divit/static/css/main.4d580dcd.chunk.css.map",
@@ -40,6 +40,6 @@
     "static/css/2.cb0d2324.chunk.css",
     "static/js/2.1ed69912.chunk.js",
     "static/css/main.4d580dcd.chunk.css",
-    "static/js/main.94231496.chunk.js"
+    "static/js/main.579f58d8.chunk.js"
   ]
 }
