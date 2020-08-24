@@ -47,7 +47,7 @@ class Skills extends React.Component {
   <Card.Body>
 
       <div className=''>
-    <p>Divit may be a difficult person to deal with, but if you ask his friends, they will say he is the one to keep close and that they wouldn’t change a thing about him. His goal in life is to fulfill the meaning of his name – “Immortal”, by making a place in the heart of people he cares about. Becoming independent and living life on his own terms has become his passion. Coming to what he likes, Product Management is his new found ecstasy, and something he dearly wants to succeed in.</p>
+    <p> If you ask his friends, they will say he is the one to keep close and that they wouldn’t change a thing about him. His goal in life is to fulfill the meaning of his name – “Immortal”. And Product management can help him achieve that. The impact of products can reach a wide array of audience and can make a small yet significant difference to someone’s life. He dearly wants to succeed in doing that. And even if he has just started the race, he is on the right course.</p>
     <p> I can go on and on about him, but I think that’s enough about Divit, let’s be modest. Ahh like Divit is of course!</p>
 
                 </div>
