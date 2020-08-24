@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Bar, Line, Pie, HorizontalBar } from "react-chartjs-2";
+import {  HorizontalBar } from "react-chartjs-2";
 import VerticalChart from './Vertical.js'
 
 class Chart extends Component {

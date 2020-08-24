@@ -1,6 +1,4 @@
 import React from 'react';
-import mine from '../images/mine.jpg';
-import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -10,7 +8,6 @@ import linkedin from '../images/linkedin_b.png';
 import gmail from '../images/gmail.png';
 import logo from '../images/logo1.png';
 
-import Typist from 'react-typist';
 
 import '../css/ContactInfo.css';
 

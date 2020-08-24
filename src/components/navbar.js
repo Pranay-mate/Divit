@@ -6,12 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText
+
 } from 'reactstrap';
 import "../css/navbar.css";
 import { Link } from "react-scroll";
@@ -98,7 +93,7 @@ class Navba extends Component {
         smooth={true}
         offset={-70}
         duration={500}
-      ><p>ContactInfo</p></Link>
+      ><p>Contact Info</p></Link>
       </NavItem>
 
       </Nav>

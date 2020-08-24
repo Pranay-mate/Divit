@@ -14,11 +14,7 @@
   font-family: 'Playfair Display', serif;
 }
 
-
-
 .star{
-
     height: calc(2em + 1vw);
     padding-top: calc(0.2em + 0.1vw);
-
-}
+  }

@@ -1,22 +1,9 @@
 import React,{useState} from 'react';
-import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import 'react-tabs/style/react-tabs.css';
-import TabContainer from 'react-bootstrap/TabContainer';
-import TabContent from 'react-bootstrap/TabContent';
-import TabPane from 'react-bootstrap/TabPane';
-import Nav from 'react-bootstrap/Nav';
-
-import Bat from '../images/badminton.jpeg';
-import Bat1 from '../images/badminton1.jpg';
-import Bat2 from '../images/badminton2.jpg';
-import Netflix from '../images/Netflix.jpeg';
-import Netflix1 from '../images/Netflix1.jpeg';
-import Dance from '../images/dance.jpeg';
-import Dance1 from '../images/dance1.jpg';
 
 import EToilet from '../images/e-toilet-in-india.jpg';
 import MeruVsOla from '../images/MeruVsOla2.jpg';
@@ -36,24 +23,18 @@ import HeadOut from '../images/headout.png';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 
-import { AutoRotatingCarousel } from 'material-auto-rotating-carousel';
-import { Slide } from 'material-auto-rotating-carousel';
 
 import '../css/Projects.css';
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import Paper from '@material-ui/core/Paper';
-import Modal from '@material-ui/core/Modal';
 import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-const { red, blue, green } = require('@material-ui/core/colors');
 const Button = require('@material-ui/core/Button').default;
 
 
