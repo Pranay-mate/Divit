@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.a0d3f38c.chunk.css",
-    "main.js": "/Divit/static/js/main.0f8db816.chunk.js",
-    "main.js.map": "/Divit/static/js/main.0f8db816.chunk.js.map",
+    "main.css": "/Divit/static/css/main.09caa891.chunk.css",
+    "main.js": "/Divit/static/js/main.7d770eb1.chunk.js",
+    "main.js.map": "/Divit/static/js/main.7d770eb1.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.cb0d2324.chunk.css": "/Divit/static/css/2.cb0d2324.chunk.css",
     "static/js/2.dcbd3a2b.chunk.js": "/Divit/static/js/2.dcbd3a2b.chunk.js",
     "static/js/2.dcbd3a2b.chunk.js.map": "/Divit/static/js/2.dcbd3a2b.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.19102164c7fb084278e418d940773fc7.js": "/Divit/precache-manifest.19102164c7fb084278e418d940773fc7.js",
+    "precache-manifest.fedf0be0d14e341c939d8a58442f83f5.js": "/Divit/precache-manifest.fedf0be0d14e341c939d8a58442f83f5.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.a0d3f38c.chunk.css.map": "/Divit/static/css/main.a0d3f38c.chunk.css.map",
+    "static/css/main.09caa891.chunk.css.map": "/Divit/static/css/main.09caa891.chunk.css.map",
     "static/js/2.dcbd3a2b.chunk.js.LICENSE.txt": "/Divit/static/js/2.dcbd3a2b.chunk.js.LICENSE.txt",
     "static/media/DoToday.jpg": "/Divit/static/media/DoToday.eb1866e3.jpg",
     "static/media/Flatmate.png": "/Divit/static/media/Flatmate.55b33524.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
     "static/js/2.dcbd3a2b.chunk.js",
-    "static/css/main.a0d3f38c.chunk.css",
-    "static/js/main.0f8db816.chunk.js"
+    "static/css/main.09caa891.chunk.css",
+    "static/js/main.7d770eb1.chunk.js"
   ]
 }
