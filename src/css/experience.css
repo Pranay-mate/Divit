@@ -31,13 +31,13 @@
 }
 .Experience h3{
   font-family: 'Bree Serif', serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
 
 }
 @media screen and (max-width: 600px) {
   .Experience h3{
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
   }
 }

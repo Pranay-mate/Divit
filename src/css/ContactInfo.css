@@ -35,6 +35,14 @@
 .icon-foot:hover, .icon-footer:hover {
   transform: scale(1.2);
 }
+.footer-icons{
+  padding: 0.5em 0em 0em 0em;
+
+}
+.Name{
+  padding: 0.5em 0em 0em 0em;
+
+}
 @media screen and (max-width: 600px) {
   .ContactInfo h1{
     text-align: center;
@@ -44,17 +52,12 @@
     padding: 0.5em 0em;
 
   }
+
   .footer-icons{
     padding: 0.5em 0em 0em 0em;
 
   }
-  .icon-foot{
-    height: 40px;
-    width: 40px;
-    border: 1px solid white;
-    transition: transform .2s;
 
-  }
   .icon-footer{
     height: 40px;
     width: 40px;
@@ -63,12 +66,7 @@
   }
 }
 @media screen and (min-width: 601px) {
-  .icon-foot{
-    height: 50px;
-    width: 50px;
-    border: 1px solid white;
-  transition: transform .2s;
-  }
+
   .icon-footer{
     height: 50px;
     width: 50px;
@@ -88,4 +86,7 @@
     font-size: 3em;
     padding: 1em 1em 0em 1em;
   }
+}
+.DK{
+
 }

@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import medium from '../images/medium_b.png';
-import linkedin from '../images/linkedin_b.png';
+import linkedin from '../images/linkedin 2.png';
 import gmail from '../images/gmail.png';
 import logo from '../images/logo1.png';
 
@@ -32,16 +32,16 @@ function ContactInfo() {
   <Row className="footer-bottom" >
 
   <Col xs={12} lg={3}  className="footer-logo text-center">
-  <img src={logo} height='70px' width='100px'  className='mx-1 '  alt='loading..' />
+  <img src={logo} height='70px' width='100px'  className='DK mx-1'  alt='loading..' />
 
   </Col>
-    <Col xs={12} lg={6}  className="footer-icons text-center">
-    <a href="https://www.linkedin.com/in/divitkarmiani/"><img src={linkedin}  className='icon-foot mx-1 rounded-circle'   alt='loading..' /></a>
+    <Col xs={12} lg={6}  className="footer-icons text-center ">
+    <a href="https://www.linkedin.com/in/divitkarmiani/"><img src={linkedin}  className='icon-footer mx-1 rounded-circle'   alt='loading..' /></a>
     <a href="mailto:divitkarmiani1998@gmail.com"><img src={gmail}  className='icon-footer mx-1 rounded-circle '  alt='loading..' /></a>
     <a href="https://medium.com/@divitkarmiani1998"><img src={medium}  className='icon-footer mx-1 rounded-circle'  alt='loading..' /></a>
 
     </Col>
-    <Col xs={12} lg={3}   className=" text-center">
+    <Col xs={12} lg={3}   className="Name text-center">
     <h1>Divit Karmiani</h1>
     </Col>
 
