@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.134a6140.chunk.css",
-    "main.js": "/Divit/static/js/main.bace73c2.chunk.js",
-    "main.js.map": "/Divit/static/js/main.bace73c2.chunk.js.map",
+    "main.css": "/Divit/static/css/main.56ff8e07.chunk.css",
+    "main.js": "/Divit/static/js/main.0f8db816.chunk.js",
+    "main.js.map": "/Divit/static/js/main.0f8db816.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.cb0d2324.chunk.css": "/Divit/static/css/2.cb0d2324.chunk.css",
     "static/js/2.dcbd3a2b.chunk.js": "/Divit/static/js/2.dcbd3a2b.chunk.js",
     "static/js/2.dcbd3a2b.chunk.js.map": "/Divit/static/js/2.dcbd3a2b.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.8037fd3de50445926b2e4a8e28503ea2.js": "/Divit/precache-manifest.8037fd3de50445926b2e4a8e28503ea2.js",
+    "precache-manifest.ff78ea23567d62a822937a9e5a90cdc0.js": "/Divit/precache-manifest.ff78ea23567d62a822937a9e5a90cdc0.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.134a6140.chunk.css.map": "/Divit/static/css/main.134a6140.chunk.css.map",
+    "static/css/main.56ff8e07.chunk.css.map": "/Divit/static/css/main.56ff8e07.chunk.css.map",
     "static/js/2.dcbd3a2b.chunk.js.LICENSE.txt": "/Divit/static/js/2.dcbd3a2b.chunk.js.LICENSE.txt",
     "static/media/DoToday.jpg": "/Divit/static/media/DoToday.eb1866e3.jpg",
     "static/media/Flatmate.png": "/Divit/static/media/Flatmate.55b33524.png",
@@ -25,7 +25,7 @@
     "static/media/gifgit.png": "/Divit/static/media/gifgit.810db633.png",
     "static/media/gmail.png": "/Divit/static/media/gmail.b5a365d3.png",
     "static/media/headout.png": "/Divit/static/media/headout.b189df81.png",
-    "static/media/linkedin_b.png": "/Divit/static/media/linkedin_b.cc6833b2.png",
+    "static/media/linkedin 2.png": "/Divit/static/media/linkedin 2.6a55ef36.png",
     "static/media/logo1.png": "/Divit/static/media/logo1.448c8a59.png",
     "static/media/macaques.png": "/Divit/static/media/macaques.51a6ca23.png",
     "static/media/medium.png": "/Divit/static/media/medium.151df821.png",
@@ -40,7 +40,7 @@
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
     "static/js/2.dcbd3a2b.chunk.js",
-    "static/css/main.134a6140.chunk.css",
-    "static/js/main.bace73c2.chunk.js"
+    "static/css/main.56ff8e07.chunk.css",
+    "static/js/main.0f8db816.chunk.js"
   ]
 }
