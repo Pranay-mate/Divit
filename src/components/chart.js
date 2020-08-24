@@ -91,16 +91,6 @@ class Chart extends Component {
       },tooltips: {
         enabled: false,
 
-            callbacks: {
-                label: function(tooltipItem, data) {
-                    var label = data.datasets[tooltipItem.datasetIndex].label || '';
-                    if (label) {
-                        label += ': ';
-                    }
-
-                    return 'Skill';
-                }
-            }
         },
 
 

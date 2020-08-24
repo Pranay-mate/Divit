@@ -18,7 +18,7 @@
 }
 @media screen and (max-width: 600px) {
   .card-img-top{
-    height: 250px;
+    height: 200px;
   }
 }
 @media screen and (min-width: 601px) {
@@ -76,7 +76,7 @@ font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 600px) {
   .card{
-    height: 18.7em;
+    height: 15.5em;
   }
 
 }
@@ -87,7 +87,7 @@ font-family: 'Roboto', sans-serif;
 }
 @media screen and (max-width: 600px) {
   .musicCard{
-    height: 18.7em;
+    height: 15.5em;
   }
 
 }
@@ -111,7 +111,6 @@ font-family: 'Roboto', sans-serif;
   }
   .CardDeck-big2{
     padding: 0.1em 1em;
-
   }
 }
 @media screen and (min-width: 601px) {
@@ -122,11 +121,9 @@ font-family: 'Roboto', sans-serif;
 @media screen and (min-width: 601px) {
   .CardDeck-big{
     padding: 1em 28em 1em 28em;
-
-
   }
   .CardDeck-big2{
-    padding: 1em 60.5em 1em 5em;
+    padding: 1em 60.7em 1em 5em;
 
 
   }
