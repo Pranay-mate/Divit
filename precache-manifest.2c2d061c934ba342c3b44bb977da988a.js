@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad90bebac981b772bed9db560a8275d1",
+    "revision": "4ed0ecd45f9bd30caa2d6a1bc28f899c",
     "url": "/Divit/index.html"
   },
   {
-    "revision": "f2da211009b9a6c6942f",
+    "revision": "fe0923769a4d6bcaddd5",
     "url": "/Divit/static/css/2.cb0d2324.chunk.css"
   },
   {
-    "revision": "ceb951375e022f49bac7",
-    "url": "/Divit/static/css/main.e7bade90.chunk.css"
+    "revision": "c05ece1258ffc1c8c2cf",
+    "url": "/Divit/static/css/main.7847254f.chunk.css"
   },
   {
-    "revision": "f2da211009b9a6c6942f",
-    "url": "/Divit/static/js/2.dcbd3a2b.chunk.js"
+    "revision": "fe0923769a4d6bcaddd5",
+    "url": "/Divit/static/js/2.4a34d54f.chunk.js"
   },
   {
     "revision": "176852ae27885dfd7559e0fb4b332d24",
-    "url": "/Divit/static/js/2.dcbd3a2b.chunk.js.LICENSE.txt"
+    "url": "/Divit/static/js/2.4a34d54f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ceb951375e022f49bac7",
-    "url": "/Divit/static/js/main.6c6c00d2.chunk.js"
+    "revision": "c05ece1258ffc1c8c2cf",
+    "url": "/Divit/static/js/main.75c4064f.chunk.js"
   },
   {
     "revision": "7e510d59304ff4fab732",
@@ -58,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e59ae6889a3605acfdc4f7e4db2f3866",
     "url": "/Divit/static/media/e-toilet-in-india.e59ae688.jpg"
-  },
-  {
-    "revision": "810db633a568139ea0f826141d7dcd6e",
-    "url": "/Divit/static/media/gifgit.810db633.png"
   },
   {
     "revision": "b5a365d346c1929f1cbacc5277ccd10d",

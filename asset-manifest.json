@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Divit/static/css/main.e7bade90.chunk.css",
-    "main.js": "/Divit/static/js/main.6c6c00d2.chunk.js",
-    "main.js.map": "/Divit/static/js/main.6c6c00d2.chunk.js.map",
+    "main.css": "/Divit/static/css/main.7847254f.chunk.css",
+    "main.js": "/Divit/static/js/main.75c4064f.chunk.js",
+    "main.js.map": "/Divit/static/js/main.75c4064f.chunk.js.map",
     "runtime-main.js": "/Divit/static/js/runtime-main.ef562173.js",
     "runtime-main.js.map": "/Divit/static/js/runtime-main.ef562173.js.map",
     "static/css/2.cb0d2324.chunk.css": "/Divit/static/css/2.cb0d2324.chunk.css",
-    "static/js/2.dcbd3a2b.chunk.js": "/Divit/static/js/2.dcbd3a2b.chunk.js",
-    "static/js/2.dcbd3a2b.chunk.js.map": "/Divit/static/js/2.dcbd3a2b.chunk.js.map",
+    "static/js/2.4a34d54f.chunk.js": "/Divit/static/js/2.4a34d54f.chunk.js",
+    "static/js/2.4a34d54f.chunk.js.map": "/Divit/static/js/2.4a34d54f.chunk.js.map",
     "index.html": "/Divit/index.html",
-    "precache-manifest.c80406cdb42bc8ec98e5c6d10722d3ef.js": "/Divit/precache-manifest.c80406cdb42bc8ec98e5c6d10722d3ef.js",
+    "precache-manifest.2c2d061c934ba342c3b44bb977da988a.js": "/Divit/precache-manifest.2c2d061c934ba342c3b44bb977da988a.js",
     "service-worker.js": "/Divit/service-worker.js",
     "static/css/2.cb0d2324.chunk.css.map": "/Divit/static/css/2.cb0d2324.chunk.css.map",
-    "static/css/main.e7bade90.chunk.css.map": "/Divit/static/css/main.e7bade90.chunk.css.map",
-    "static/js/2.dcbd3a2b.chunk.js.LICENSE.txt": "/Divit/static/js/2.dcbd3a2b.chunk.js.LICENSE.txt",
+    "static/css/main.7847254f.chunk.css.map": "/Divit/static/css/main.7847254f.chunk.css.map",
+    "static/js/2.4a34d54f.chunk.js.LICENSE.txt": "/Divit/static/js/2.4a34d54f.chunk.js.LICENSE.txt",
     "static/media/DoToday.jpg": "/Divit/static/media/DoToday.eb1866e3.jpg",
     "static/media/Flatmate.png": "/Divit/static/media/Flatmate.55b33524.png",
     "static/media/Lyft.jpg": "/Divit/static/media/Lyft.286bb3fe.jpg",
@@ -22,7 +22,6 @@
     "static/media/Zomato.jpeg": "/Divit/static/media/Zomato.f8ca9a4d.jpeg",
     "static/media/devOps.png": "/Divit/static/media/devOps.83260087.png",
     "static/media/e-toilet-in-india.jpg": "/Divit/static/media/e-toilet-in-india.e59ae688.jpg",
-    "static/media/gifgit.png": "/Divit/static/media/gifgit.810db633.png",
     "static/media/gmail.png": "/Divit/static/media/gmail.b5a365d3.png",
     "static/media/headout.png": "/Divit/static/media/headout.b189df81.png",
     "static/media/linkedin 2.png": "/Divit/static/media/linkedin 2.6a55ef36.png",
@@ -39,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.ef562173.js",
     "static/css/2.cb0d2324.chunk.css",
-    "static/js/2.dcbd3a2b.chunk.js",
-    "static/css/main.e7bade90.chunk.css",
-    "static/js/main.6c6c00d2.chunk.js"
+    "static/js/2.4a34d54f.chunk.js",
+    "static/css/main.7847254f.chunk.css",
+    "static/js/main.75c4064f.chunk.js"
   ]
 }
