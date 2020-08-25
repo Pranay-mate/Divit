@@ -1,5 +1,4 @@
 import React from 'react';
-import gifgit from '../images/gifgit.png';
 import mine from '../images/mine.jpg';
 import medium from '../images/medium.png';
 import linkedin from '../images/linkedin.png';
