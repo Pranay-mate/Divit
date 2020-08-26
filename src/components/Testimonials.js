@@ -21,7 +21,7 @@ function Testimonials() {
       <Carousel.Item className=" text-center">
 
 <div className='testimonial-para text-center'>
-          <p>Austin, for being relatively young, exhibits the experience and talent of someone twice his age in y
+          <p>Austin, for being relatively young, exhibits the experience and talent of someone twice his age in yor being relatively young, exhibits the experience and talent of someone
 </p>
 </div>
 
@@ -38,6 +38,25 @@ function Testimonials() {
   </Container>
       </Carousel.Item>
 
+      <Carousel.Item className=" text-center">
+
+<div className='testimonial-para text-center'>
+          <p>Austin, for being relatively young, exhibits the experience and talent of someone twice his age in yor being relatively young, exhibits the experience and talent of someone
+</p>
+</div>
+
+<Container className='testimonial' style={{width:'350px'}}>
+    <Row >
+       <Col xs={3}  className='text-right' style={{padding:'0px'}}>
+       <Image className='img-fluid' src={mine} alt="Avatar"  roundedCircle  style={{width:'55px', height:'55px'}} />
+           </Col>
+      <Col xs={9}  className='text-left px-3'  >
+      <p style={{padding:'3px 0px 0px 0px', margin:'0px'}}>Rebecca Flex. CEO at Company.</p>
+      <p style={{padding:'0px', margin:'0px'}}>No one is better than John Doe.</p>
+      </Col>
+    </Row>
+  </Container>
+      </Carousel.Item>
 
     </Carousel>
 
