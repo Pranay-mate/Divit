@@ -15,8 +15,8 @@ import '../css/Testimonials.css';
 function Testimonials() {
   return (
     <div className="Testimonials text-center">
-    <span>KIND<Image className='quoteicon img-fluid mx-2' src={quoteicon} alt="Avatar"  roundedCircle  style={{width:'40px', height:'40px'}} />
-    WORDS</span>
+    <span>KIND</span><Image className='quoteicon img-fluid mx-2' src={quoteicon} alt="Avatar"  roundedCircle  style={{width:'40px', height:'40px'}} />
+    <span>WORDS</span>
     <Carousel controls={false} >
       <Carousel.Item className=" text-center">
 
@@ -41,7 +41,7 @@ function Testimonials() {
       <Carousel.Item className=" text-center">
 
 <div className='testimonial-para text-center'>
-          <p>Austin, for being relatively young, exhibits the experience and talent of someone twice his age in yor being relatively young, exhibits the experience and talent of someone
+<p>Austin, for being relatively young, exhibits the experience and talent of someone twice his age in yor being relatively young, exhibits the experience and talent of someone
 </p>
 </div>
 

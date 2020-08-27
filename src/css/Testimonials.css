@@ -2,12 +2,15 @@
   height: 350px;
 }
 .Testimonials{
-
+  padding-top: 1em;
 }
 @media screen and (max-width: 600px) {
 
 .Testimonials .carousel{
   height: 300px;
+}
+.Testimonials{
+  padding-top: 0em;
 }
 }
 .carousel-indicators li {
@@ -30,10 +33,12 @@ padding-top: 2.5em;
 .Testimonials span{
   opacity: 0.9;
   letter-spacing: 0.2em;
-font-family: 'Roboto Mono', sans-serif;
-font-size: 14px;
-line-height: 16px;
+  font-family: 'Special Elite', cursive;
+
+font-size: 16px;
+line-height: 0px;
 }
+
 .testimonial-para {
   font-family: 'Crimson Text', sans-serif;
     padding:  1em 10em;
