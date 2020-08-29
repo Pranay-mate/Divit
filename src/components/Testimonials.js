@@ -15,7 +15,7 @@ import '../css/Testimonials.css';
 function Testimonials() {
   return (
     <div className="Testimonials text-center">
-    <span>KIND</span><Image className='quoteicon img-fluid mx-2' src={quoteicon} alt="Avatar"  roundedCircle  style={{width:'40px', height:'40px'}} />
+    <span>KIND</span><Image className='quoteicon img-fluid mx-2' src={quoteicon} alt="Avatar"  roundedCircle   />
     <span>WORDS</span>
     <Carousel controls={false} >
       <Carousel.Item className=" text-center">

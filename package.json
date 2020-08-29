@@ -32,6 +32,7 @@
     "react-scripts": "3.4.2",
     "react-scroll": "^1.8.1",
     "react-skillbars": "^1.6.1",
+    "react-swipeable-views": "^0.13.9",
     "react-tabs": "^3.1.1",
     "react-typist": "^2.0.5",
     "react-vertical-timeline-component": "^3.0.2",
