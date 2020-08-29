@@ -2,7 +2,7 @@
   height: 350px;
 }
 .Testimonials{
-  padding-top: 1em;
+  padding-top: 2em;
 }
 @media screen and (max-width: 600px) {
 
@@ -35,7 +35,7 @@ padding-top: 2.5em;
   letter-spacing: 0.2em;
   font-family: 'Special Elite', cursive;
 
-font-size: 16px;
+font-size: 20px;
 line-height: 0px;
 }
 
